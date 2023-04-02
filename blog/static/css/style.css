@@ -95,19 +95,7 @@ body {
     overflow: hidden;
 }
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
-}
+
 
 .post-link {
     text-decoration: none;
@@ -162,4 +150,46 @@ body {
     color: #E84610;
     background: transparent;
     border: none;
+}
+footer {
+    height: 50px; 
+    padding: 10px;
+    
+}
+
+.apps-icons {
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.apps-icons li {
+    width: 25%;
+}
+footer .apps-icons i {
+    font-size: 1.5em;
+    margin: 1%;
+    color: white;
+}
+
+.apps-icons p {
+    color: white;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: .5;
+}
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
 }
