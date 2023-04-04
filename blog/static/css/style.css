@@ -165,11 +165,7 @@ body {
     background: transparent;
     border: none;
 }
-footer {
-    height: 50px; 
-    padding: 10px;
-    
-}
+
 
 .apps-icons {
     text-align: center;
@@ -199,11 +195,13 @@ header.masthead .overlay {
     background-color: #212529;
     opacity: .5;
 }
+
 header.masthead {
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     background: no-repeat center center;
     background-color: #252729;
     background-attachment: scroll;
     position: relative;
     background-size: cover;
 }
+
