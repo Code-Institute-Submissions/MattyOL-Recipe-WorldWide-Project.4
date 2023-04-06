@@ -53,6 +53,7 @@ body {
 
 .card {
     border: none;
+    border-radius: 20px
 }
 
 .image-container {
@@ -83,6 +84,12 @@ body {
     display: inline-block;
     height: 33vh;
     width: 100%;
+}
+
+.ms-3 {
+    margin-left: 5rem!important;
+    margin-right: 5rem!important;
+    box-shadow: #000;
 }
 
 .masthead-text {

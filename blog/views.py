@@ -3,6 +3,15 @@ from django.views import generic, View
 from .models import Post
 
 
+def search_recipe(request):
+    if request.method == "POST":
+        searched = request.POST['searched']
+
+        return render(request, 'search_recipe.html', {'searched': searched})
+    else:
+        return render(request, 'search_recipe.html', {})
+
+
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -29,3 +38,4 @@ class PostDetail(View):
                 "liked": liked
             },
         )
+    
