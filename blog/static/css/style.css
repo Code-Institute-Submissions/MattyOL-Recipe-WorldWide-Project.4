@@ -211,3 +211,35 @@ header.masthead {
     background-size: cover;
 }
 
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+}
+
+.mt-3 {
+    margin-top: 3rem!important;
+}
+
+.signupc {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+
+
