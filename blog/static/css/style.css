@@ -224,6 +224,10 @@ header.masthead {
     height: 450px;
 }
 
+.container h3 {
+    text-align: center;
+}
+
 .mt-3 {
     margin-top: 3rem!important;
 }
@@ -241,5 +245,40 @@ header.masthead {
     height: 400px;
 }
 
+.signupc h1 {
+    text-align: center;
+    font-size: 1.75rem;
+}
 
+.signoutc {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 300px;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+.submit {
+    text-align: center;
+    margin-left: 90px;
+}
+
+.signoutc h1  {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.signoutc p {
+    text-align: center;
+}
+
+.btn-submit:hover
+.btn-submit:active {
+    color: #54b3d6;
+}
 
