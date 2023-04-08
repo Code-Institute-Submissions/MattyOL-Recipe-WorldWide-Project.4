@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'django_summernote',
+    'crispy_forms',
     'blog',
 ]
 
@@ -69,6 +70,8 @@ LOGOUT_REDIRECT_URL = '/'
 
 SITE_ID = 1
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
