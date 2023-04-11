@@ -5,6 +5,10 @@ from .models import Post
 from .forms import CommentForm
 
 
+def about(request):
+    return render(request, 'about.html')
+
+
 def search_recipe(request):
     if request.method == "POST":
         searched = request.POST['searched']

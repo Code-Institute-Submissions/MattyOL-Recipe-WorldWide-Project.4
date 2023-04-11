@@ -202,9 +202,21 @@ header.masthead {
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
-    margin-left: auto;
-
+    margin-left: auto; 
     
+}
+
+.containerlogin {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 600px;
+    height: 450px
 }
 
 .signupc {
@@ -257,11 +269,13 @@ header.masthead {
 
 #btn-signout:hover {
     color: #198819;
+
 }
 
 .signoutc h1  {
     text-align: center;
     font-size: 1.75rem;
+    
 }
 
 .signoutc p {
@@ -271,6 +285,14 @@ header.masthead {
 .btn-submit:hover
 .btn-submit:active {
     color: #54b3d6;
+}
+
+.submit {
+    border-radius: 7px;
+    background-color: #E84610;
+}
+.link {
+    color: #0d6efd;
 }
 
 /* Next Page */
