@@ -20,6 +20,7 @@ body {
 #globe {
     color: black;
 }
+
 .fa-globe:before {
     color: black;
 }
@@ -52,7 +53,7 @@ body {
 }
 
 .card {
-    border: none;
+    
     border-radius: 20px
 }
 
@@ -137,16 +138,7 @@ body {
     color: lightgray;
 }
 
-.btn-signup {
-    background-color: #23BBBB;
-    color: #fff;
-}
 
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
-}
 
 .link {
     color: #198819;
@@ -172,26 +164,6 @@ body {
     border: none;
 }
 
-
-.apps-icons {
-    text-align: center;
-    width: 100%;
-    display: flex;
-}
-
-.apps-icons li {
-    width: 25%;
-}
-footer .apps-icons i {
-    font-size: 1.5em;
-    margin: 1%;
-    color: white;
-}
-
-.apps-icons p {
-    color: white;
-}
-
 header.masthead .overlay {
     position: absolute;
     top: 0;
@@ -210,27 +182,29 @@ header.masthead {
     position: relative;
     background-size: cover;
 }
-/* Sign in , Register , Log Out */
 
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #445261;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+/* Sign in , Register , Log Out */
 .container {
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
-    margin-top: 200px;
-    border-radius: 20px;
-    width: 600px;
-    height: 450px;
-}
 
-.container h3 {
-    text-align: center;
-}
-
-.mt-3 {
-    margin-top: 3rem!important;
+    
 }
 
 .signupc {
@@ -265,6 +239,17 @@ header.masthead {
     height: 150px;
 }
 
+.btn-signup {
+    background-color: #23BBBB;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #23BBBB;
+}
+
 .submit {
     text-align: center;
     margin-left: 90px;
@@ -286,5 +271,41 @@ header.masthead {
 .btn-submit:hover
 .btn-submit:active {
     color: #54b3d6;
+}
+
+/* Next Page */
+
+.page-link {
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Footer App's */
+
+.apps-icons {
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.apps-icons li {
+    width: 25%;
+}
+
+footer .apps-icons i {
+    font-size: 1.5em;
+    margin: 1%;
+    color: white;
+}
+
+.apps-icons p {
+    color: white;
+}
+
+.container h3 {	
+    text-align: center;	
+}	
+.mt-3 {	
+    margin-top: 3rem!important;	
 }
 
