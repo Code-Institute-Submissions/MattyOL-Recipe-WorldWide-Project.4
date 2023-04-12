@@ -6,7 +6,7 @@ from .forms import CommentForm
 
 
 def about(request):
-    return render(request, 'about.html')
+    return render(request, '../templates/blog/about.html')
 
 
 def search_recipe(request):
