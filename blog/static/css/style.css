@@ -331,3 +331,96 @@ footer .apps-icons i {
     margin-top: 3rem!important;	
 }
 
+
+/* About us Page */
+
+.checkbtnh {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    padding-top: 10px;
+}
+
+.about-image {
+    position: relative;
+}
+
+.aboutUsImg {
+    margin: auto;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    display: block;
+    border-radius: 40px;
+    
+}
+
+.aboutcontainer {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#cover-about {
+    font-size: 150%;
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    left: 50%;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    position: absolute;
+}
+.kitchencontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 5px 5px 5px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.containerone {
+    width: 60%;
+}
+
+.containerone img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+}
+
+.textone {
+    width: 60%;
+}
+
+.textone h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    color: black;
+}
+
+.textone p{
+    padding: 10px 10px 10px 10px ;
+    text-align: justify;
+    font-size: 1rem;
+    color: black;
+}
