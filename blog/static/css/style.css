@@ -3,19 +3,28 @@
 body {
     background-color: #F9FAFC;
 }
+/*-----Nav bar Css----*/
 .nav-item a {
-    background-image: linear-gradient(
-      to right,
-      #54b3d6,
-      #54b3d6 50%,
-      #000 50%
-    );
-    background-size: 200% 100%;
-    background-position: -100%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-  }
+    font-size: 15px;
+    transition: font-size 0.3s ease;
+    color: #000;
+}
+.nav-item a:hover {
+    font-size: 22px;
+}
+.navbar-brand {
+    font-size: 18px; /* Initial font size */
+    transition: font-size 0.3s ease; /* Add transition for smooth effect */
+}
+
+.navbar-brand:hover {
+    font-size: 28px; /* Font size on hover */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
 
 #globe {
     color: black;
@@ -419,8 +428,28 @@ footer .apps-icons i {
 }
 
 .textone p{
-    padding: 10px 10px 10px 10px ;
+    padding: 6px 6px 6px 6px ;
     text-align: justify;
     font-size: 1rem;
     color: black;
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .aboutcontainer {
+        flex-direction: column-reverse;
+    }
+
+    .kitchencontainer {
+        flex-direction: column-reverse;
+    }
+
+    .containerone {
+       
+        width: 100%;
+    }
+    .textone{
+        width: 100%;
+    }
+    
 }
