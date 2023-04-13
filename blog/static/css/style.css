@@ -157,7 +157,9 @@ h2 {
     border-radius: 20px;
     margin: 0px 300px;
 }
-
+.card-title:hover {
+    
+}
 .link {
     color: #198819;
     text-decoration: none;
@@ -416,6 +418,8 @@ footer .apps-icons i {
 }
 .containerone {
     width: 60%;
+    margin: 8px 8px 8px 8px;
+
 }
 
 .containerone img {
