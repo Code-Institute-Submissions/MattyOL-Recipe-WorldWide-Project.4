@@ -1,3 +1,7 @@
+from django.views.generic.list import ListView
+from pipes import Template
+from re import template
+from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
@@ -16,6 +20,16 @@ def search_recipe(request):
         return render(request, 'search_recipe.html', {'searched': searched})
     else:
         return render(request, 'search_recipe.html', {})
+
+
+class SearchResultsView(ListView):
+    model = Post
+    template_name = "search_results.html"
+
+    def get_queryset(self):
+        query = self.request.GET.get("q")
+        object_list = Post.objects.filter(Q(name__icontains=query))
+        return object_list
 
 
 class PostList(generic.ListView):

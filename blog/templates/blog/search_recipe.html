@@ -1,16 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <center>
-    {% if searched %}
-    <h1>You search for ... {{ searched }}</h1>
+<div>
+    <ul>
+    {% for post in object_list %}
+    <li>{{ post.title }}</li>
+    {% andfor %}
+    </ul>
+</div>
 
-    {% else %} 
-        <h1>
-            Hey! You forgot to Search for a Recipe...
-        </h1>
-    {% end if %}
-
-
-    </center>
 {% endblock %}
