@@ -13,22 +13,13 @@ def about(request):
     return render(request, '../templates/blog/about.html')
 
 
-def search_recipe(request):
-    if request.method == "POST":
-        searched = request.POST['searched']
-
-        return render(request, 'search_recipe.html', {'searched': searched})
-    else:
-        return render(request, 'search_recipe.html', {})
-
-
 class SearchResultsView(ListView):
     model = Post
-    template_name = "search_results.html"
+    template_name = "blog/search_results.html"
 
     def get_queryset(self):
         query = self.request.GET.get("q")
-        object_list = Post.objects.filter(Q(name__icontains=query))
+        object_list = Post.objects.filter(Q(title__icontains=query))
         return object_list
 
 

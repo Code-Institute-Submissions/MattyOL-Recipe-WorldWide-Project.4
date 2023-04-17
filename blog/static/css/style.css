@@ -74,6 +74,9 @@ h2 {
     position: relative;
     
 }
+.cardbody ul {
+    font-family: fantasy;
+}
 
 
 .image-flash {
@@ -93,7 +96,7 @@ h2 {
 
 .masthead {
     margin-top: 10px;
-    overflow: hidden;
+    overflow: ;
     position: relative;
     display: inline-block;
     height: 33vh;
@@ -115,6 +118,7 @@ h2 {
 .masthead-image {
     position: relative;
     overflow: hidden;
+   
 }
 .card-img, .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
@@ -214,7 +218,8 @@ header.masthead {
     -webkit-transform: skew(15deg);
     -moz-transform: skew(15deg);
     transform: skew(15deg);
-    z-index: 100;
+    z-index: -1;
+    border-radius: 10px;
 }
 /* Sign in , Register , Log Out */
 .container {
@@ -269,6 +274,17 @@ header.masthead {
     border-radius: 20px;
     width: 300px;
     height: 150px;
+}
+.backgroundcontainer {
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
 }
 
 .btn-signup {
@@ -351,6 +367,45 @@ footer .apps-icons i {
     margin-top: 3rem!important;	
 }
 
+.grouped-list {
+    font-family: fantasy;
+}
+/* Blog Array Media queiy */
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
 
 /* About us Page */
 
@@ -388,6 +443,10 @@ footer .apps-icons i {
     margin-top: 40px;
     margin-left: 12px;
     margin-right: 12px;
+}
+
+p {
+    font-family: fantasy;
 }
 
 #cover-about {
