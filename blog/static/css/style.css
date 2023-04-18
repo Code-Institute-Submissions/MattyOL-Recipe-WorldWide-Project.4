@@ -155,7 +155,7 @@ h2 {
     color: lightgray;
 }
 
-.postimage {
+. {
     vertical-align: middle;
     width: 50%;
     border-radius: 20px;
@@ -220,6 +220,13 @@ header.masthead {
     transform: skew(15deg);
     z-index: -1;
     border-radius: 10px;
+}
+. {
+    vertical-align: middle;
+    width: 50%;
+    border-radius: 20px;
+    margin: 0px 300px;
+    height: 300px;
 }
 /* Sign in , Register , Log Out */
 .container {
