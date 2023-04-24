@@ -13,6 +13,14 @@ def about(request):
     return render(request, '../templates/blog/about.html')
 
 
+def error404_page(request):
+    return render(request, '../templates/blog/404.html')
+
+
+def error505_page(request):
+    return render(request, '../templates/blog/505.html')
+
+
 class SearchResultsView(ListView):
     model = Post
     template_name = "blog/search_results.html"
