@@ -94,3 +94,13 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+# ERROR
+
+
+def custom_view(request):
+    return render(request, '500.html')
+
+
+def custom_view(request, exception):
+    return render(request, '404.html', status=404)
