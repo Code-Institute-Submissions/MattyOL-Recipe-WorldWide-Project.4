@@ -21,14 +21,13 @@ def error505_page(request):
     return render(request, '../templates/blog/505.html')
 
 
-class SearchResultsView(ListView):
-    model = Post
-    template_name = "blog/search_results.html"
-
-    def get_queryset(self):
-        query = self.request.GET.get("q")
-        object_list = Post.objects.filter(Q(title__icontains=query))
-        return object_list
+def get_queryset(request):
+    query = request.GET.get("q")  
+    if query:
+        object_list = Post.objects.filter(title__icontains=query)
+        return render(request, 'blog/search_results.html', {'object_list':object_list})
+    else:
+        return render(request, '404.html')
 
 
 class PostList(generic.ListView):

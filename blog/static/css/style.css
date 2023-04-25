@@ -535,7 +535,7 @@ p {
 }
 
 .main h2{
-    font-size: 300px;
+    font-size: 200px;
     padding: 0 30px;
 }
 
@@ -550,16 +550,16 @@ p {
 }
 
 .text p {
-    font-size: 75px;
+    font-size: 45px;
     font-weight: 900;
     color: #222;
 }
 
 .text span {
-    font-size: 32px;
+    font-size: 26px;
 }
 
-.text button {
+.text button  {
     height: 75px;
     padding: 0 50px;
     margin: 40px 0;
@@ -573,6 +573,23 @@ p {
     animation-delay: 2s;
 }
 
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 @media screen and (max-width: 1300px) {
     
     .aboutcontainer {

@@ -56,7 +56,7 @@
                 <span class="navbar-text text-muted"> 
                     
                 </span>
-                <form class="d-flex" method="get" action="{% url 'search_results' %}">
+                <form class="d-flex" method="get" action="{% url 'get_queryset' %}">
                     {% csrf_token %}
                     <input class="form-control me-2" type="text" placeholder="search" aria-label="search" name="q">
                     <button class="btn btn-outline-secondary" type="submit">Search</button>
