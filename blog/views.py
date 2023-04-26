@@ -12,6 +12,9 @@ from .forms import CommentForm
 def about(request):
     return render(request, '../templates/blog/about.html')
 
+def contact(request):
+    return render(request, '../templates/blog/contact.html')
+
 
 def error404_page(request):
     return render(request, '../templates/blog/404.html')
