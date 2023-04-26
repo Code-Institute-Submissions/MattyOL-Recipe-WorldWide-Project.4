@@ -4,16 +4,44 @@ from re import template
 from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-from django.http import HttpResponseRedirect
-from .models import Post
+from django.http import HttpResponseRedirect, HttpResponse
+from .models import Post, Contact
 from .forms import CommentForm
+
+# about page
 
 
 def about(request):
     return render(request, '../templates/blog/about.html')
 
+# contact page
+
+
 def contact(request):
+    if request.method == "POST":
+        contact = Contact()
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        phone = request.POST.get('phone')
+        message = request.POST.get('message')
+        contact.name = name
+        contact.email = email
+        contact.phone = phone
+        contact.message = message
+        contact.save()
+        return HttpResponse("<h1>Thanks for contacting Us!</h1>")
+
     return render(request, '../templates/blog/contact.html')
+
+# 500/404 ERROR HANDLER
+
+
+def custom_view(request):
+    return render(request, '500.html')
+
+
+def custom_view(request, exception):
+    return render(request, '404.html', status=404)
 
 
 def error404_page(request):
@@ -23,14 +51,18 @@ def error404_page(request):
 def error505_page(request):
     return render(request, '../templates/blog/505.html')
 
+# search results invalid search to respond with 404 template
+
 
 def get_queryset(request):
-    query = request.GET.get("q")  
+    query = request.GET.get("q")
     if query:
         object_list = Post.objects.filter(title__icontains=query)
-        return render(request, 'blog/search_results.html', {'object_list':object_list})
+        return render(request, 'blog/search_results.html', {'object_list': object_list})
     else:
         return render(request, '404.html')
+
+# post list amount on website page 6
 
 
 class PostList(generic.ListView):
@@ -39,6 +71,8 @@ class PostList(generic.ListView):
     template_name = "index.html"
     paginate_by = 6
 
+
+# Blog post Detail inluding liking/ commenting
 
 class PostDetail(View):
 
@@ -104,13 +138,3 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
-
-# ERROR
-
-
-def custom_view(request):
-    return render(request, '500.html')
-
-
-def custom_view(request, exception):
-    return render(request, '404.html', status=404)

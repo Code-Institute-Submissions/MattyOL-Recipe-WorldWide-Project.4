@@ -6,6 +6,15 @@ from cloudinary.models import CloudinaryField
 STATUS = ((0, "Draft"), (1, "Published"))
 
 
+class Contact(models.Model):
+    name = models.CharField(max_length=200)
+    email = models.EmailField()
+    message = models.TextField()
+
+    def __str__(self):
+        return self.name
+
+
 class Category(models.Model):
     name = models.CharField(u'Name', max_length=100)
     description = models.TextField(u'Description', blank=True)

@@ -243,7 +243,7 @@ header.masthead {
     margin-right: auto;
     margin-left: auto;
     background-color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     border-radius: 20px;
     width: 600px;
     height: 450px
@@ -560,14 +560,14 @@ p {
 }
 
 .text button  {
-    height: 75px;
+    height: 0px;
     padding: 0 50px;
     margin: 40px 0;
     font-size: 28px;
-    background: #222;
+    background: #2ecc71;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     cursor: pointer;
     animation: shake ease-in-out 3 0.7s;
     animation-delay: 2s;
@@ -590,25 +590,7 @@ p {
         transform: rotate(0deg);
     }
 }
-@media screen and (max-width: 1300px) {
-    
-    .aboutcontainer {
-        flex-direction: column-reverse;
-    }
-
-    .kitchencontainer {
-        flex-direction: column-reverse;
-    }
-
-    .containerone {
-       
-        width: 100%;
-    }
-    .textone{
-        width: 100%;
-    }
-    
-}
+ /* Contact page */
 
 .contact-container{
 	position: relative;
@@ -618,6 +600,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	padding: 20px 100px;
+    margin-top: 40px;
 }
 
 .contact-container:after{
@@ -644,7 +627,7 @@ p {
 }
 
 .left{
-	background: url("contact.jpg") no-repeat center;
+	background: url( "img/sample.jpeg" ) no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -733,6 +716,26 @@ textarea{
     background-color: #ca2200;
 }
 
+/* Media Queries 1300px and lower */ 
+@media screen and (max-width: 1300px) {
+    
+    .aboutcontainer {
+        flex-direction: column-reverse;
+    }
+
+    .kitchencontainer {
+        flex-direction: column-reverse;
+    }
+
+    .containerone {
+       
+        width: 100%;
+    }
+    .textone{
+        width: 100%;
+    }
+    
+}
 
 @media screen and (max-width: 880px){
 	.contact-box{

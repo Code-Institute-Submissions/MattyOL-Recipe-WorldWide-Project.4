@@ -1,18 +1,22 @@
 {% extends "base.html" %} {% block content %}
-<div class="contact-container">
-    <div class="contact-box">
-        <div class="left"><img class="card-img-top" src=""></div>
-        <div class="right">
-            <h2>Contact Us</h2>
-            <input type="text" class="field" placeholder="Your Name">
-            <input type="text" class="field" placeholder="Your Email">
-            <input type="text" class="field" placeholder="Phone">
-            <textarea placeholder="Message" class="field"></textarea>
-            <button class="btn">Send</button>
+
+<form method="post">
+    {% csrf_token %}
+    <div class="contact-container">
+        <div class="contact-box">
+            
+{% load static %}<div class="left"><img class="card-img-top" src="{% static "dj_appblog/media/kitchen.jpg" %}"></div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Your Name" name="name">
+                <input type="text" class="field" placeholder="Your Email" name="email">
+                <input type="text" class="field" placeholder="Phone" name="phone">
+                <textarea placeholder="Message" class="field" name="message"></textarea>
+                <button class="btn">Send</button>
+            </div>
         </div>
     </div>
-</div>
-
+</form>
 
 
 {% endblock %}
