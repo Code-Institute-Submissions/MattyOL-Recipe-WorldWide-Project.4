@@ -29,8 +29,6 @@ def contact(request):
         contact.phone = phone
         contact.message = message
         contact.save()
-        return HttpResponse("<h1>Thanks for contacting Us!</h1>")
-
     return render(request, '../templates/blog/contact.html')
 
 # 500/404 ERROR HANDLER
@@ -57,7 +55,7 @@ def error505_page(request):
 def get_queryset(request):
     query = request.GET.get("q")
     if query:
-        object_list = Post.objects.filter(title__icontains=query)
+        object_list = Post.objects.filter(content__icontains=query)
         return render(request, 'blog/search_results.html', {'object_list': object_list})
     else:
         return render(request, '404.html')
