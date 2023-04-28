@@ -68,7 +68,7 @@ h2 {
 }
 
 .card {
-    
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
     border-radius: 20px
 }
 
@@ -207,12 +207,6 @@ header.masthead {
     background-size: cover;
 }
 
-.results {
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    flex-flow: row ;
-} 
 .masthead-image:after {
     content: "";
     position: absolute;
@@ -234,7 +228,8 @@ header.masthead {
     margin: 0px 300px;
     height: 300px;
 }
-/* Sign in , Register , Log Out */
+/* Sign in , Sign up  , Log Out */
+
 .container {
     width: 100%;
     padding-right: var(--bs-gutter-x,.75rem);
@@ -245,16 +240,33 @@ header.masthead {
 }
 
 .containerlogin {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-right: auto;
-    margin-left: auto;
     background-color: white;
     margin-top: 100px;
     border-radius: 20px;
-    width: 600px;
-    height: 450px
+    height: 100%;
+    align-items: center;
+
+    max-width: 650px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    border-radius: 30px;
+    display: block;
+    justify-content: center;
+}
+
+.results {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap:  wrap;
+} 
+
+.flex-shrink-0 {
+    justify-content: center;
 }
 
 .signupc {
@@ -268,6 +280,7 @@ header.masthead {
     border-radius: 20px;
     width: 500px;
     height: 350px;
+    
 }
 
 
@@ -298,6 +311,7 @@ header.masthead {
     border-radius: 20px;
     width: 500px;
     height: 350px;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
 .btn-signup {
@@ -383,16 +397,6 @@ footer .apps-icons i {
 .grouped-list {
     font-family: fantasy;
 }
-/* Blog Array Media queiy */
-
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
@@ -401,18 +405,6 @@ footer .apps-icons i {
 }
 
 /* display 3 */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-right.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(33.333%);
-    }
-    
-    .carousel-inner .carousel-item-left.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-33.333%);
-    }
-}
 
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left{ 
@@ -456,6 +448,7 @@ footer .apps-icons i {
     margin-top: 40px;
     margin-left: 12px;
     margin-right: 12px;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
 p {
@@ -518,7 +511,7 @@ p {
     font-size: 1rem;
     color: black;
 }
-/* 404 Handler 505 Handler  */
+/* 404 Handler 500 Handler  */
 
 .wrapper {
     display: flex;
@@ -753,4 +746,32 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+/* Blog Array Media queiy */
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
 }

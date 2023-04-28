@@ -1,14 +1,15 @@
 {% extends "base.html" %} {% load static %} {% block content %}
-
+<!-- Contact page -->
 <form method="post" class="was-validated">
     {% csrf_token %}
     <div class="contact-container">
 
         <div class="contact-box">
-            
+            <!-- contact Img src -->
             <div class="left"><img src="{{MEDIA_URL}}veg.jpg"></div>
             
             <div class="right">
+                <!-- contact form -->
                 <h2>Contact Us</h2>
                 <input type="text" class="field" placeholder="Your Name" name="name" required>
                 <input type="text" class="field" placeholder="Your Email" name="email" required>
