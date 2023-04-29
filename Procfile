@@ -1,1 +1,1 @@
-web: gunicorn project-4-fsf.wsgi
+web: gunicorn Websitename.wsgi
