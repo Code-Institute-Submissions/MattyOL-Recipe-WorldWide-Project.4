@@ -775,3 +775,12 @@ textarea{
       transform: translateX(-33.333%);
     }
 }
+
+@media (min-width: 500px) {
+    footer p {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+}
+    }
+}
