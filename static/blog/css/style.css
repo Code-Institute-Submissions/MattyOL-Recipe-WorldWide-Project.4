@@ -611,7 +611,7 @@ p {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("contact.jpg") no-repeat center;
+	background: url("https://res.cloudinary.com/deukp1bhl/image/upload/v1682869022/jqz6jkdxqwosvlc5ycut.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -629,7 +629,7 @@ p {
 }
 
 .left{
-	background-image: url( '{% static "blog/media/spices.jpg" %}' ) no-repeat center;
+	background-image: url( '{% "https://res.cloudinary.com/deukp1bhl/image/upload/v1682869022/jqz6jkdxqwosvlc5ycut.jpg" %}' ) no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
