@@ -1,15 +1,16 @@
 from . import views
 from django.urls import path
-from .views import get_queryset, error404_page
+from .views import get_queryset, error404_page, create_view
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth import views as auth_views
+
 
 urlpatterns = [
     path('', views.PostList.as_view(), name='home'),
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
+    path('add_post/', create_view, name='add_post'),
     path('error404_page/', views.error404_page, name='404'),
-    path('error505_page/', views.error505_page, name='505'),
     path('search/', views.get_queryset, name='get_queryset'),
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
     path('like/<slug:slug>', views.PostLike.as_view(), name='post_like'),

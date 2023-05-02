@@ -98,10 +98,12 @@ h2 {
 
 .masthead {
     margin-top: 10px;
+    overflow:auto;
     position: relative;
     display: inline-block;
     height: 33vh;
     width: 100%;
+    border-radius: 10px;
 }
 
 .ms-3 {
@@ -119,7 +121,6 @@ h2 {
 .masthead-image {
     position: relative;
     overflow: hidden;
-   
 }
 .card-img, .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
@@ -235,6 +236,7 @@ header.masthead {
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto; 
+    background-color: white;
     
 }
 
@@ -610,7 +612,6 @@ p {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("https://res.cloudinary.com/deukp1bhl/image/upload/v1682869022/jqz6jkdxqwosvlc5ycut.jpg") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -628,7 +629,7 @@ p {
 }
 
 .left{
-	background: url("https://res.cloudinary.com/deukp1bhl/image/upload/v1682869022/jqz6jkdxqwosvlc5ycut.jpg") no-repeat center;
+    background: url("") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }

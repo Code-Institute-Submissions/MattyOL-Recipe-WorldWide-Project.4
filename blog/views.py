@@ -7,6 +7,8 @@ from django.views import generic, View
 from django.http import HttpResponseRedirect, HttpResponse
 from .models import Post, Contact
 from .forms import CommentForm
+from .models import AddModel
+from .forms import AddForm
 
 # about page
 
@@ -31,7 +33,18 @@ def contact(request):
         contact.save()
     return render(request, '../templates/blog/contact.html')
 
-# 500/404 ERROR HANDLER
+# Create
+
+
+def create_view(request):
+    context = {}
+    form = AddForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+    context['form'] = form
+    return render(request, "add_post.html", context)
+
+# 404 ERROR HANDLER
 
 
 def custom_view(request):
