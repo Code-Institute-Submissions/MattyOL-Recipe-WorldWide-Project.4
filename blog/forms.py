@@ -1,6 +1,5 @@
-from .models import Comment
+from .models import Comment, Post
 from django import forms
-from .models import AddModel
 
 
 class CommentForm(forms.ModelForm):
@@ -12,5 +11,5 @@ class CommentForm(forms.ModelForm):
 class AddForm(forms.ModelForm):
 
     class Meta:
-        model = AddModel
-        fields = '__all__'
+        model = Post
+        fields = ('title', 'author', 'content_image', 'excerpt', 'content', 'slug')

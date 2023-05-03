@@ -6,9 +6,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect, HttpResponse
 from .models import Post, Contact
-from .forms import CommentForm
-from .models import AddModel
-from .forms import AddForm
+from .forms import AddForm, CommentForm
 
 # about page
 
@@ -43,6 +41,59 @@ def create_view(request):
         form.save()
     context['form'] = form
     return render(request, "add_post.html", context)
+
+
+def create_view(request):
+
+    context = {}
+
+    form = AddForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+ 
+    context['form'] = form
+    return render(request, "add_post.html", context)
+
+
+def detail_view(request, id):
+
+    context = {}
+    context["data"] = Post.objects.get(id=id)
+
+    return render(request, "add_post.html", context)
+
+
+def update_view(request, id):
+
+    context = {}
+
+    obj = get_object_or_404(Post, id=id)
+
+    form = Form(request.POST or None, instance=obj)
+
+    if form.is_valid():
+        form.save()
+        return HttpResponseRedirect("/"+id)
+
+    context["form"] = form
+
+    return render(request, "add_post.html", context)
+
+
+def delete_view(request, id):
+
+    context = {}
+
+    obj = get_object_or_404(Post, id=id)
+
+    if request.method == "POST":
+        
+        obj.delete()
+       
+        return HttpResponseRedirect("/")
+
+    return render(request, "delete_post.html", context)
+
 
 # 404 ERROR HANDLER
 

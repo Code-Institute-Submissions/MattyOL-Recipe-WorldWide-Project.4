@@ -29,7 +29,7 @@ class Category(models.Model):
 
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
-    slug = models.SlugField(max_length=200, unique=True)
+    slug = models.SlugField(max_length=200, unique=False)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
@@ -40,7 +40,7 @@ class Post(models.Model):
     category = models.ManyToManyField(Category, verbose_name=u'Categories')
     content = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    status = models.IntegerField(choices=STATUS, default=0)
+    status = models.IntegerField(choices=STATUS, default=1)
     likes = models.ManyToManyField(
         User, related_name='blogpost_like', blank=True)
 
@@ -52,14 +52,6 @@ class Post(models.Model):
 
     def number_of_likes(self):
         return self.likes.count()
-
-
-class AddModel(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.TextField()
-
-    def __str__(self):
-        return self.title
 
 
 class Comment(models.Model):

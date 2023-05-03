@@ -1,0 +1,50 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+
+<form class="add-recipe-container" method="POST" enctype="multipart/form-data">
+    <div id="add-form-box" class="field">
+        <!-- Security token -->
+        {% csrf_token %}
+ 
+        <!-- Using the formset -->
+        {{ form.as_p }}
+        
+        <input placeholder="title" class="field" type="text" name="title" maxlength="200" required="" >
+
+       
+        <select placeholder="author" class="field" type="text" name="Author" required="" id="id_author">
+            <option value="" selected=""></option>
+          
+            <option value="2">matthew</option>
+          
+            <option value="3">olearymatty</option>
+          
+            <option value="4">matthew1</option>
+          
+            <option value="5">test</option>
+          
+            <option value="1">mattsproject4</option>
+          
+            <option value="6">bak2k3</option>
+          
+          </select>
+
+        
+        <input placeholder="image" class="field" type="file" name="content_image" id="id_content_image">
+
+        
+        <textarea placeholder="Message" class="field" name="message" cols="40" rows="10" id="id_excerpt"></textarea>
+
+        <textarea placeholder="content" class="field"  name="content" cols="40" rows="10" required="" id="id_content"></textarea>
+
+        <input placeholder="slug" class="field"  type="text" name="slug" maxlength="200" required="" id="id_slug">
+
+        <input class="btn" type="submit" value="Submit">
+    </div>
+</form>
+
+
+{% endblock content %}
