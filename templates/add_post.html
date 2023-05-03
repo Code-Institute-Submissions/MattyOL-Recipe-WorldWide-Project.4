@@ -12,10 +12,10 @@
         <!-- Using the formset -->
         {{ form.as_p }}
         
-        <input placeholder="title" class="field" type="text" name="title" maxlength="200" required="" >
+        <input placeholder="Title" class="field" type="text" name="Title" maxlength="200" required="" >
 
-       
-        <select placeholder="author" class="field" type="text" name="Author" required="" id="id_author">
+         
+        <label for="">Author:<select placeholder="Author" class="field" type="text" name="Author" required="" id="id_author"></label>
             <option value="" selected=""></option>
           
             <option value="2">matthew</option>
@@ -33,14 +33,14 @@
           </select>
 
         
-        <input placeholder="image" class="field" type="file" name="content_image" id="id_content_image">
+        <label for="">Image:<input placeholder="Image" class="field" type="file" name="content_image" id="id_content_image"></label>
 
         
         <textarea placeholder="Message" class="field" name="message" cols="40" rows="10" id="id_excerpt"></textarea>
 
-        <textarea placeholder="content" class="field"  name="content" cols="40" rows="10" required="" id="id_content"></textarea>
+        <textarea placeholder="Content" class="field"  name="content" cols="40" rows="10" required="" id="id_content"></textarea>
 
-        <input placeholder="slug" class="field"  type="text" name="slug" maxlength="200" required="" id="id_slug">
+        <input placeholder="Slug" class="field"  type="text" name="slug" maxlength="200" required="" id="id_slug">
 
         <input class="btn" type="submit" value="Submit">
     </div>

@@ -50,7 +50,7 @@ def create_view(request):
     form = AddForm(request.POST or None)
     if form.is_valid():
         form.save()
- 
+
     context['form'] = form
     return render(request, "add_post.html", context)
 
@@ -77,7 +77,7 @@ def update_view(request, id):
 
     context["form"] = form
 
-    return render(request, "add_post.html", context)
+    return render(request, "update_post.html", context)
 
 
 def delete_view(request, id):

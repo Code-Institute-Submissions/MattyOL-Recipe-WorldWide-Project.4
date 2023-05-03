@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Lateef&family=Lato:ital,wght@1,300&family=Love+Ya+Like+A+Sister&family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
+html {
+    
+}
 
 body {
     background-color: #F9FAFC;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 /*-----Nav bar Css----*/
 .nav-item a {
@@ -362,7 +370,7 @@ header.masthead {
 /* Next Page */
 
 .page-link {
-    color: #000;
+    
     border-radius: 5px;
 }
 
@@ -618,7 +626,6 @@ p {
 }
 .contact-box{
 	max-width: 850px;
-	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	align-items: center;
@@ -756,6 +763,12 @@ textarea{
 	z-index: -1;
 }
 
+#add-form-box label {
+    text-align: left;
+}
+
+
+
 /* Media Queries 1300px and lower */ 
 @media screen and (max-width: 1300px) {
     
@@ -815,9 +828,23 @@ textarea{
 }
 
 @media (min-width: 500px) {
-    footer p {
-    display: block;
-    width: 100%;
-    padding-left: 0;
+    #footer {
+        margin-top: auto;
+    }
+
+    .contact-container {
+        padding: 10px 20px;
+        
+
+    }
+}
+
+@media (min-width: 370px) {
+   
+
+    .contact-container {
+        padding: 5px 10px;
+        
+
     }
 }
