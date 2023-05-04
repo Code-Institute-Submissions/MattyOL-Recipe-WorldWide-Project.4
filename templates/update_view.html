@@ -2,14 +2,19 @@
 
 {% load i18n %}
 {% load account socialaccount %}
- <!-- Security token -->
- {% csrf_token %}
-<form method="POST">
-    <!-- Security token by Django -->
-    {% csrf_token %}
-    
-    <input type="submit" value="Update">
-</form>
 
+<form class="add-recipe-container" method="POST" enctype="multipart/form-data">
+    <div id="add-form-box" class="field">
+        <!-- Security token -->
+        {% csrf_token %}
+ 
+        <!-- Using the formset -->
+        {{ form.as_p }}
+        
+       
+
+        <input class="btn" type="submit" value="Submit">
+    </div>
+</form>
 
 {% endblock content %}

@@ -626,7 +626,7 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	
     margin-top: 40px;
 }
 
@@ -679,7 +679,8 @@ h2:after{
     border-radius: 2px;
 }
 
-.field{
+
+.field , input, textarea{
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
@@ -688,6 +689,11 @@ h2:after{
 	font-size: 1.1rem;
 	margin-bottom: 22px;
 	transition: .3s;
+}
+
+.field label {
+    text-align: left;
+    display: flex;
 }
 
 .field:hover{
@@ -756,8 +762,37 @@ textarea{
 }
 
 #add-form-box {
+    text-align: left;
+}
+
+input {
+    background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field  {
+	width: 100%;
+    display: inline-block;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+
+#add-form-box input:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#add-form-box  {
     max-width: 850px;
-	display: inline-block;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
 	align-items: center;
@@ -780,9 +815,12 @@ textarea{
 	z-index: -1;
 }
 
-#add-form-box label {
-    text-align: left;
+.fas-fa-trash:before {
+    color: #198819;
 }
+
+
+
 
 
 
@@ -845,25 +883,38 @@ textarea{
 }
 
 @media (min-width: 700px) {
-    .backgroundcontainer {
-        
+
+    .row {
+        font-size: 10px;
     }
 }
 
-@media (min-width: 500px) {
-    #footer {
-        margin-top: auto;
+@media (max-width: 550px) {
+    .signup p {
+        font-size: 7px;
     }
 
-    .contact-container {
-        padding: 10px 20px;
-        
-
+    .signupc h1 {
+        font-size: 30px;
     }
+
+    .row {
+        font-size: 10px;
+    }
+
+    
+  
 }
 
-@media (min-width: 370px) {
+@media (max-width: 370px) {
+
+    .signupc h1 {
+        font-size: 20px;
+    }
    
+    .signup {
+        font-size: 7px;
+    }
 
     .contact-container {
         padding: 5px 10px;

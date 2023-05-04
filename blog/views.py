@@ -2,7 +2,7 @@ from django.views.generic.list import ListView
 from pipes import Template
 from re import template
 from django.db.models import Q
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect, HttpResponse
 from .models import Post, Contact
@@ -63,37 +63,29 @@ def detail_view(request, id):
     return render(request, "add_post.html", context)
 
 
-def update_view(request, id):
+def update_view(request, post_id):
+    post_id = int(post_id)
+    try:
+        post_sel = Post.objects.get(id=post_id)
+    except post.DoesNotExist:
+        return redirect('index')
+    post_form = AddForm(request.POST or None, instance=post_sel)
+    if post_form.is_valid():
+        post_form.save()
+        return redirect('index')
+    return render(request, 'update_view.html', {'upload_form': post_form})
 
-    context = {}
-
-    obj = get_object_or_404(Post, id=id)
-
-    form = Form(request.POST or None, instance=obj)
-
-    if form.is_valid():
-        form.save()
-        return HttpResponseRedirect("/"+id)
-
-    context["form"] = form
-
-    return render(request, "update_post.html", context)
+# delete 
 
 
-def delete_view(request, id):
-
-    context = {}
-
-    obj = get_object_or_404(Post, id=id)
-
-    if request.method == "POST":
-        
-        obj.delete()
-       
-        return HttpResponseRedirect("/")
-
-    return render(request, "delete_post.html", context)
-
+def delete_view(request, post_id):
+    post_id = int(post_id)
+    try:
+        post_sel = Post.objects.get(id=post_id)
+    except Post.DoesNotExist:
+        return redirect('index.html')
+    post_sel.delete()
+    return redirect('index.html')
 
 # 404 ERROR HANDLER
 

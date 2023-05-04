@@ -1,6 +1,6 @@
 from . import views
 from django.urls import path
-from .views import get_queryset, error404_page, create_view, delete_view
+from .views import get_queryset, error404_page, create_view, delete_view, update_view
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.contrib.auth import views as auth_views
 
@@ -10,7 +10,8 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path('blog/add_post/', views.create_view, name='add_post'),
-    path('<title>/delete', delete_view),
+    path('update/<int:post_id>', update_view),
+    path('delete/<int:post_id>', delete_view),
     path('error404_page/', views.error404_page, name='404'),
     path('search/', views.get_queryset, name='get_queryset'),
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
