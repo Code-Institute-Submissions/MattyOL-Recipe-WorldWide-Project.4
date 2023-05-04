@@ -82,7 +82,51 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 # Tools & Teshnologie's
 
 
+# local Deployment 
+This project can be cloned or forked in order to make a local copy on your own system.
 
+For either method, you will need to install any applicable packages found within the requirements.txt file.
+
+* pip3 install -r requirements.txt.
+You will need to create a new file called env.py at the root-level, and include the same environment variables listed above from the Heroku deployment steps.
+
+Sample env.py file:
+
+
+
+
+Once the project is cloned or forked, in order to run it locally, you'll need to follow these steps:
+
+Start the Django app: python3 manage.py runserver
+Stop the app once it's loaded: CTRL+C or ⌘+C (Mac)
+Make any necessary migrations: python3 manage.py makemigrations
+Migrate the data to the database: python3 manage.py migrate
+Create a superuser: python3 manage.py createsuperuser
+Load fixtures (if applicable): python3 manage.py loaddata file-name.json (repeat for each file)
+Everything should be ready now, so run the Django app again: python3 manage.py runserver
+Cloning
+You can clone the repository by following these steps:
+
+Go to the GitHub repository
+Locate the Code button above the list of files and click it
+Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+Open Git Bash or Terminal
+Change the current working directory to the one where you want the cloned directory
+In your IDE Terminal, type the following command to clone my repository:
+git clone https://github.com/adamgilroy22/tribe.git
+Press Enter to create your local clone.
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+Open in Gitpod
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed. A tutorial on how to do that can be found here.
+
+Forking
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+Once clicked, you should now have a copy of the original repository in your own GitHub account!
 # credits 
  * I used code institutes project 4 blog post tutorial to get me up and running with a template so i can then add new features to Create a fully functionaly web applcation. 
  * I wanna Thank Ben Kanvanagh for the guidance in this project , Helping me to test my boundiers. 
