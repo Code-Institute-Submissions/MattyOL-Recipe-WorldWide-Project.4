@@ -12,4 +12,4 @@ class AddForm(forms.ModelForm):
 
     class Meta:
         model = Post
-        fields = ('title', 'author', 'content_image', 'excerpt', 'content', 'slug')
+        fields = ('title', 'author', 'content_image', 'content')

@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Lateef&family=Lato:ital,wght@1,300&family=Love+Ya+Like+A+Sister&family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
-html {
-    
-}
 
 body {
     background-color: #F9FAFC;
@@ -194,6 +191,7 @@ h2 {
     background: transparent;
     border: none;
 }
+
 
 header.masthead .overlay {
     position: absolute;
@@ -830,13 +828,24 @@ input {
 	z-index: -1;
 }
 
-.fas-fa-trash:before {
-    color: #198819;
+.delete a i {
+    color: red;
+    float: right;
+    padding: 10px;
+    font-size: 12px;
 }
 
+.edit a i {
+    color: #198819;
+    float: right;
+    padding: 10px;
+    font-size: 12px;
+}
+.delete a i { transition: all .20s ease-in-out; }
+.delete a i:hover { transform: scale(1.7); }
 
-
-
+.edit a i { transition: all .20s ease-in-out; }
+.edit a i:hover { transform: scale(1.7); }
 
 
 /* Media Queries 1300px and lower */ 
@@ -867,13 +876,17 @@ input {
 	.left{
 		height: 200px;
 	}
+
+    .clogin {
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width: 700px) {
 
 }
 
-/* Blog Array Media queiy */
+/* Blog Array Media queries */
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
@@ -910,15 +923,17 @@ input {
     }
 
     .signupc h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
-    .row {
+
+    .row p {
         font-size: 10px;
     }
 
-    
-  
+    input {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -933,7 +948,9 @@ input {
 
     .contact-container {
         padding: 5px 10px;
-        
+    }
 
+    .brand {
+        font-size: 1rem;
     }
 }
