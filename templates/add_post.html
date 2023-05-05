@@ -5,7 +5,7 @@
 
 
 <form class="add-recipe-container" method="POST" enctype="multipart/form-data">
-    <div id="add-form-box" class="field">
+    <div id="add-form-box" class="field" required>
         <!-- Security token -->
         {% csrf_token %}
  

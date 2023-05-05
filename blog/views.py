@@ -55,12 +55,7 @@ def create_view(request):
     return render(request, "add_post.html", context)
 
 
-def detail_view(request, id):
-
-    context = {}
-    context["data"] = Post.objects.get(id=id)
-
-    return render(request, "add_post.html", context)
+# update/edit 
 
 
 def update_view(request, post_id):
