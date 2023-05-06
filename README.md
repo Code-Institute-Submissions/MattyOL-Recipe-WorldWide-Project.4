@@ -71,17 +71,17 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 <img width="847" alt="Screen Shot 2023-05-04 at 13 54 51" src="https://user-images.githubusercontent.com/111317260/236211485-8d0c7f84-a750-4fdd-a6aa-8b3d91eb28e7.png">
 
 
-# Feature's
+## Feature's
 
 
 
-# Future Features's
+## Future Features's
 
-# Database Design
+## Database Design
 
-# Models 
+## Models 
 
-# Agile Development Process
+## Agile Development Process
 
 ### GitHub Projects
 GitHub Projects served as an Agile tool for this project. It isn't a specialized tool, but with the right tags and project creation/issue assignments, it was made to work
@@ -89,6 +89,7 @@ GitHub Projects served as an Agile tool for this project. It isn't a specialized
 * Through it, user stories were used to map out the development progress of the project using the basic Kanban board. It helped me to see the backlog of work I needed to complete and move tasks across as I worked on them before testing and signing off to finish them.# MoSCoW Prioritization.
 img 
 
+### MoSCoW Prioritization
 
 
 
