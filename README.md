@@ -75,6 +75,16 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 
 
 
+# Future Features's
+
+# Database Design
+
+# Models 
+
+# Agile Development Process
+
+# MoSCoW Prioritization
+
 
 
 
@@ -133,8 +143,8 @@ Deployment steps are as follows, after account setup:
 
 1. CLOUDINARY_URL - 	insert your own Cloudinary API key here
 2. DATABASE_URL - insert your own ElephantSQL database URL here
-3. 3. DISABLE_COLLECTSTATIC - 1 (this is temporary, and can be removed for the final deployment)
-4. 4. SECRET_KEY - this can be any random secret key
+3. DISABLE_COLLECTSTATIC - 1 (this is temporary, and can be removed for the final deployment)
+4. SECRET_KEY - this can be any random secret key
 
 Heroku needs two additional files in order to deploy properly.
 
