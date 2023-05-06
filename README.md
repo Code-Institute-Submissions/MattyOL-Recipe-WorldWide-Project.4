@@ -5,7 +5,7 @@
 
 Recipe WorldWide is a Blog post website where Users get to share Recipes fr0m around the world, The admin can Add posts, Add Images, Create content for the blog posts , Manage User requests on adding blog post whcih the user can create when Signed up & logged into there account , The user can send a email when they sign up to the site if they have any Questions or ideas. The aim of this site was to Bring all Recipes and people together to share there way of cooking.
 
-Link url{https://project-4-fsf.herokuapp.com/}
+[Live Link to Recipe WorldWide](https://project-4-fsf.herokuapp.com/)
 
 # UX
 I wanted to keep the colour scheme quite simpley so its easy for the user to navigate and not get distracted while on the website The colour i used is 
@@ -213,9 +213,11 @@ You can clone the repository by following these steps:
 
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
 
-1. Log in to GitHub and locate the repository 
-2 .At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+ 1. Log in to GitHub and locate the repository 
+
+ 2 .At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+ 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
 # credits 
  * I used code institutes project 4 blog post tutorial to get me up and running with a template so i can then add new features to Create a fully functionaly web applcation. 
