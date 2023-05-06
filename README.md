@@ -80,20 +80,33 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 
 
 # Tools & Technologie Used in this project 
-1.[HTML]([)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
-2.[CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-3.[CSS:root variables]([)](https://www.w3schools.com/css/css3_variables.asp) :root variables used for reusable styles throughout the site.
-4.[Bootstrap](https://getbootstrap.com/) used as the front-end CSS framework for modern responsiveness and pre-built components.
-5.[Python](https://www.python.org/) used as the back-end programming language.
-6.[Git](https://git-scm.com/) used for version control. (git add, git commit, git push)
-7.[GitHub]([)](https://github.com/) used for secure online code storage.
-8.[Gitpod]([)](https://gitpod.io/workspaces) used as a cloud-based IDE for development.
-9.[Django]([)](https://www.djangoproject.com/) used as the Python framework for the site.
-10.[PostgreSQL]([)](https://www.postgresql.org/) used as the relational database management.
-11.[ElephantSQL]([)](https://www.elephantsql.com/) used as the Postgres database.
-12.[Heroku]([)](https://dashboard.heroku.com/apps) used for hosting the deployed back-end site.
-13.[Cloudinary]([)](https://cloudinary.com/) used for online static file storage.
-14.[Code Spell Checker]([)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker){diff checker]([)](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
+1. [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+
+2. [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+
+3. [CSS:root variables](https://www.w3schools.com/css/css3_variables.asp) :root variables used for reusable styles throughout the site.
+
+4. [Bootstrap](https://getbootstrap.com/) used as the front-end CSS framework for modern responsiveness and pre-built components.
+
+5. [Python](https://www.python.org/) used as the back-end programming language.
+
+6. [Git](https://git-scm.com/) used for version control. (git add, git commit, git push)
+
+7. [GitHub](https://github.com/) used for secure online code storage.
+
+8. [Gitpod](https://gitpod.io/workspaces) used as a cloud-based IDE for development.
+
+9. [Django](https://www.djangoproject.com/) used as the Python framework for the site.
+
+10. [PostgreSQL](https://www.postgresql.org/) used as the relational database management.
+
+11. [ElephantSQL](https://www.elephantsql.com/) used as the Postgres database.
+
+12. [Heroku](https://dashboard.heroku.com/apps) used for hosting the deployed back-end site.
+
+13.[Cloudinary](https://cloudinary.com/) used for online static file storage.
+
+14. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)[diff checker](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
 
 # ElephantSQl DataBase
 The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
