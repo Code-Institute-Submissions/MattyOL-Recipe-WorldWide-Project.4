@@ -37,7 +37,7 @@ Fantasy was used for the for the text across the body of the site including the 
 
 
 # Wireframe's
-I used Justinmind.com to create the wireframes for my website to give me a guide to how id like to create the website so i have a better ay of developing the site.
+I used Justinmind.com to create the wireframes for my website to give me a guide to how id like to create the website so i have a more clearer plan of developing the site.
 
 ## Home-Page 
 
@@ -114,7 +114,7 @@ Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy
 Open Git Bash or Terminal
 Change the current working directory to the one where you want the cloned directory
 In your IDE Terminal, type the following command to clone my repository:
-git clone https://github.com/adamgilroy22/tribe.git
+git clone 
 Press Enter to create your local clone.
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
