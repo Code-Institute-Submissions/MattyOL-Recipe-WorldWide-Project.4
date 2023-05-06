@@ -3,8 +3,7 @@
 
 
 
-Recipe WorldWide is a Blog post website where Users get to share Recipes frm around the world, The admin can Add posts, Add Images, Create content for the blog posts , Manage User requestes on adding blog post Via Email, This user can send a email when they sign up to the site. 
-The aim of this site was to Bring all Recipes and people together to share there way of cooking.
+Recipe WorldWide is a Blog post website where Users get to share Recipes fr0m around the world, The admin can Add posts, Add Images, Create content for the blog posts , Manage User requests on adding blog post whcih the user can create when Signed up & logged into there account , The user can send a email when they sign up to the site if they have any Questions or ideas. The aim of this site was to Bring all Recipes and people together to share there way of cooking.
 
 Link url{https://project-4-fsf.herokuapp.com/}
 
@@ -80,8 +79,23 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 
 
 
-# Tools & Teshnologie's
-# Deployment 
+# Tools & Technologie Used in this project 
+1.[HTML]([)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+2.[CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+3.[CSS:root variables]([)](https://www.w3schools.com/css/css3_variables.asp) :root variables used for reusable styles throughout the site.
+4.[Bootstrap](https://getbootstrap.com/) used as the front-end CSS framework for modern responsiveness and pre-built components.
+5.[Python](https://www.python.org/) used as the back-end programming language.
+6.[Git](https://git-scm.com/) used for version control. (git add, git commit, git push)
+7.[GitHub]([)](https://github.com/) used for secure online code storage.
+8.[Gitpod]([)](https://gitpod.io/workspaces) used as a cloud-based IDE for development.
+9.[Django]([)](https://www.djangoproject.com/) used as the Python framework for the site.
+10.[PostgreSQL]([)](https://www.postgresql.org/) used as the relational database management.
+11.[ElephantSQL]([)](https://www.elephantsql.com/) used as the Postgres database.
+12.[Heroku]([)](https://dashboard.heroku.com/apps) used for hosting the deployed back-end site.
+13.[Cloudinary]([)](https://cloudinary.com/) used for online static file storage.
+14.[Code Spell Checker]([)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker){diff checker]([)](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
+
+# ElephantSQl DataBase
 The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
 
 This project uses [ElephantSQL](https://www.elephantsql.com/) for the PostgreSQL Database.
@@ -127,7 +141,7 @@ For Heroku deployment, follow these steps to connect your own GitHub repository 
 
 Either:
 
-* Select Automatic Deployment from the Heroku app.
+* Select Automatic Deployment from the Heroku app / You Can also Manual deploy.
 
 Or:
 
@@ -153,7 +167,9 @@ os.environ.setdefault("CLOUDINARY_URL", "insert your own Cloudinary API key here
 os.environ.setdefault("DATABASE_URL", "insert your own ElephantSQL database URL here")
 os.environ.setdefault("SECRET_KEY", "this can be any random secret key")
 
-# local environment only (do not include these in production/deployment!)
+# local environment only 
+(do not include these in production/deployment!)
+## Important 
 os.environ.setdefault("DEBUG", "True")
 
 
@@ -197,10 +213,3 @@ By forking the GitHub Repository, we make a copy of the original repository on o
  *  I wanna Thank slack communtiy were i could easily search a problem that a previous student might have had Meaning i could fix this.
  *  I want to thank any tutor that had helped me along the way ith getting past errors in the terminal. 
   
-
-
-
-
-
-
-
