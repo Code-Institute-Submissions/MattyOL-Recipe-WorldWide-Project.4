@@ -91,11 +91,41 @@ Deployment steps are as follows, after account setup:
 * Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select Create App.
 * From the new app Settings, click Reveal Config Vars, and set your environment variables.
 
+1. CLOUDINARY_URL - 	insert your own Cloudinary API key here
+2. DATABASE_URL - insert your own ElephantSQL database URL here
+3. 3. DISABLE_COLLECTSTATIC - 1 (this is temporary, and can be removed for the final deployment)
+4. 4. SECRET_KEY - this can be any random secret key
 
+Heroku needs two additional files in order to deploy properly.
 
+* requirements.txt
+* Procfile
+You can install this project's requirements (where applicable) using:
 
+* pip3 install -r requirements.txt
+If you have your own packages that have been installed, then the requirements file needs updated using:
 
-# local Deployment 
+* pip3 freeze --local > requirements.txt
+The Procfile can be created with the following command:
+
+* echo web: gunicorn app_name.wsgi > Procfile
+* replace app_name with the name of your primary Django app name; the folder where settings.py is located
+For Heroku deployment, follow these steps to connect your own GitHub repository to the newly created app:
+
+Either:
+
+* Select Automatic Deployment from the Heroku app.
+
+Or:
+
+* In the Terminal/CLI, connect to Heroku using this command: heroku login -i
+* Set the remote for Heroku: heroku git:remote -a app_name (replace app_name with your app name)
+* After performing the standard Git add, commit, and push to GitHub, you can now type:
+* git push heroku main
+
+The project should now be connected and deployed to Heroku & everything should deploy correctly!
+
+ # local Deployment 
 This project can be cloned or forked in order to make a local copy on your own system.
 
 For either method, you will need to install any applicable packages found within the requirements.txt file.
@@ -114,7 +144,6 @@ os.environ.setdefault("SECRET_KEY", "this can be any random secret key")
 os.environ.setdefault("DEBUG", "True")
 
 
-
 Once the project is cloned or forked, in order to run it locally, you'll need to follow these steps:
 
 * Start the Django app: python3 manage.py runserver
@@ -125,7 +154,7 @@ Once the project is cloned or forked, in order to run it locally, you'll need to
 * Load fixtures (if applicable): python3 manage.py loaddata file-name.json (repeat for each file)
 * Everything should be ready now, so run the Django app again: python3 manage.py runserver
 
-##Cloning
+## Cloning
 
 You can clone the repository by following these steps:
 
@@ -138,7 +167,7 @@ You can clone the repository by following these steps:
 7. git clone 
 8. Press Enter to create your local clone.
 
-##Forking
+## Forking
 
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
 
