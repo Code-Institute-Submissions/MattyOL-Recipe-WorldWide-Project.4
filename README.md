@@ -83,7 +83,11 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 
 # Agile Development Process
 
-# MoSCoW Prioritization
+### GitHub Projects
+GitHub Projects served as an Agile tool for this project. It isn't a specialized tool, but with the right tags and project creation/issue assignments, it was made to work
+
+* Through it, user stories were used to map out the development progress of the project using the basic Kanban board. It helped me to see the backlog of work I needed to complete and move tasks across as I worked on them before testing and signing off to finish them.# MoSCoW Prioritization.
+img 
 
 
 
