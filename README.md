@@ -81,6 +81,19 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 
 
 # Tools & Teshnologie's
+# Deployment 
+The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
+
+This project uses [ElephantSQL](https://www.elephantsql.com/) for the PostgreSQL Database.
+
+To obtain your own Postgres Database, sign-up with your GitHub account, then follow these steps:
+
+* Click Create New Instance to start a new database.
+* Provide a name (this is commonly the name of the project: tribe).
+* Select the Tiny Turtle (Free) plan.
+* You can leave the Tags blank.
+* Select the Region and Data Center closest to you.
+* Once created, click on the new database name, where you can view the database URL and Password.
 
 # Heroku Deployment
 This project uses Heroku, a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
