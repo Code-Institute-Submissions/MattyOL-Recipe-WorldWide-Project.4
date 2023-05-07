@@ -1,7 +1,7 @@
 # Recipe-WorldWide-Project.4
 <img width="1290" alt="Screen Shot 2023-05-06 at 12 13 08" src="https://user-images.githubusercontent.com/111317260/236620760-f9e61e04-9cf7-4203-a732-78b66bc46c63.png">
 
-Recipe WorldWide is a website that functions as a platform for blogging, where users can share their favorite recipes from various parts of the world. The website administrator has the authority to add posts, images, and create content for the blog. Users who are signed up and logged into their accounts can submit their blog posts, and the admin is responsible for managing the requests. Moreover, users can send emails to the site's administrators if they have any questions or ideas. The primary objective of this site is to bring individuals and their unique cooking methods together by providing a space for sharing recipes.
+Recipe WorldWide is a website that functions as a platform for blogging, where users can share their favorite recipes from various parts of the world. The website administrator has the authority to add posts verify likes and comments from users, images, and create content for the blog. Users who are signed up and logged into their accounts can submit their blog posts, edit , delete and the admin is responsible for managing the requests, users can send emails to the site's administrators if they have any questions or ideas. The primary objective of this site is to bring individuals and their unique cooking methods together by providing a space for sharing recipes.
 
 
 
@@ -84,14 +84,19 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 ## Agile Development Process
 
 ### GitHub Projects
+
 GitHub Projects was employed as an Agile tool for this project. By using the appropriate tags, and creating and assigning issues to the project, it was adapted to work effectively.
+
+* **Must have** = Guaranteed delivery.
+* * **Could have** =  has small impact if left out.
+* * **Bug** 
+* **Enhancement** = To make to site more user friendly.
 
 * The development progress of the project was mapped out using user stories through a basic Kanban board. This allowed me to visualize the backlog of work that needed to be completed and move tasks across as I worked on them before testing and signing off on them to indicate completion. Furthermore, MoSCoW Prioritization was implemented to prioritize the tasks based on their importance.
 * img 
 
 ### MoSCoW Prioritization
-
-
+Before prioritizing and implementing the Epics, I decomposed them into smaller stories. This approach allowed me to apply the MoSCoW prioritization and labels to the user stories within the Issues tab.
 
 
 # Tools & Technologie Used in this project 
