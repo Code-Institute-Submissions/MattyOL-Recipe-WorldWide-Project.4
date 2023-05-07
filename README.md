@@ -1,9 +1,9 @@
 # Recipe-WorldWide-Project.4
 <img width="1290" alt="Screen Shot 2023-05-06 at 12 13 08" src="https://user-images.githubusercontent.com/111317260/236620760-f9e61e04-9cf7-4203-a732-78b66bc46c63.png">
 
+Recipe WorldWide is a website that functions as a platform for blogging, where users can share their favorite recipes from various parts of the world. The website administrator has the authority to add posts, images, and create content for the blog. Users who are signed up and logged into their accounts can submit their blog posts, and the admin is responsible for managing the requests. Moreover, users can send emails to the site's administrators if they have any questions or ideas. The primary objective of this site is to bring individuals and their unique cooking methods together by providing a space for sharing recipes.
 
 
-Recipe WorldWide is a Blog post website where Users get to share Recipes fr0m around the world, The admin can Add posts, Add Images, Create content for the blog posts , Manage User requests on adding blog post whcih the user can create when Signed up & logged into there account , The user can send a email when they sign up to the site if they have any Questions or ideas. The aim of this site was to Bring all Recipes and people together to share there way of cooking.
 
 [Live Link to Recipe WorldWide](https://project-4-fsf.herokuapp.com/)
 
@@ -36,8 +36,8 @@ Fantasy was used for the for the text across the body of the site including the 
 
 
 # Wireframe's
-I used Justinmind.com to create the wireframes for my website to give me a guide to how id like to create the website so i have a more clearer plan of developing the site.
 
+To have a better plan for developing my website, I utilized Justinmind.com to produce wireframes that serve as a guide on how I want the website to be created
 ## Home-Page 
 
 <img width="852" alt="Screen Shot 2023-05-04 at 13 52 41" src="https://user-images.githubusercontent.com/111317260/236211223-ef284002-d437-4305-a068-ec1826a85926.png">
@@ -84,10 +84,10 @@ I used Justinmind.com to create the wireframes for my website to give me a guide
 ## Agile Development Process
 
 ### GitHub Projects
-GitHub Projects served as an Agile tool for this project. It isn't a specialized tool, but with the right tags and project creation/issue assignments, it was made to work
+GitHub Projects was employed as an Agile tool for this project. By using the appropriate tags, and creating and assigning issues to the project, it was adapted to work effectively.
 
-* Through it, user stories were used to map out the development progress of the project using the basic Kanban board. It helped me to see the backlog of work I needed to complete and move tasks across as I worked on them before testing and signing off to finish them.# MoSCoW Prioritization.
-img 
+* The development progress of the project was mapped out using user stories through a basic Kanban board. This allowed me to visualize the backlog of work that needed to be completed and move tasks across as I worked on them before testing and signing off on them to indicate completion. Furthermore, MoSCoW Prioritization was implemented to prioritize the tasks based on their importance.
+* img 
 
 ### MoSCoW Prioritization
 
@@ -138,7 +138,7 @@ To obtain your own Postgres Database, sign-up with your GitHub account, then fol
 * Once created, click on the new database name, where you can view the database URL and Password.
 
 # Heroku Deployment
-This project uses Heroku, a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+Heroku, a platform as a service (PaaS), was employed for this project. This cloud-based platform enables developers to build, run, and manage applications entirely on the cloud.
 
 Deployment steps are as follows, after account setup:
 
@@ -226,7 +226,7 @@ You can clone the repository by following these steps:
 
 ## Forking
 
-By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository. You can fork this repository by using the following steps:
+To avoid affecting the original owner's repository, a copy of the original repository is made on our GitHub account by forking the GitHub Repository. This enables us to view and/or make changes without modifying the original repository. The following steps can be used to fork this repository:
 
  1. Log in to GitHub and locate the repository 
 
