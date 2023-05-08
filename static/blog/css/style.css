@@ -104,12 +104,11 @@ h2 {
 
 .masthead {
     margin-top: 10px;
-    overflow: hidden;
     position: relative;
     display: inline-block;
-    height: 33vh;
     width: 100%;
     border-radius: 10px;
+    margin-left: 5px;
 }
 
 .ms-3 {
@@ -121,12 +120,21 @@ h2 {
     background-color: #445261;
     color: white;
     position: relative;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .masthead-image {
     position: relative;
     overflow: hidden;
+    padding-left: -calc(var(--bs-gutter-x)/ 2);
+
 }
+
+.masthead-image img {
+    border-radius: 0px 10px 10px 0px;
+
+}
+
 .card-img, .card-img-top {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
@@ -334,7 +342,6 @@ header.masthead {
     margin-bottom: 100px;
 }
 .row  {
-    padding-bottom: 40px;
     text-align: left;
 }
 
@@ -414,24 +421,8 @@ footer .apps-icons i {
 .container h3 {	
     text-align: center;	
 }	
-.mt-3 {	
-    margin-top: 3rem!important;	
-    
-}
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
-}
+
 
 .grouped-list {
     font-family: fantasy;
@@ -881,10 +872,6 @@ input {
     .clogin {
         padding: 15px;
     }
-}
-
-@media screen and (max-width: 700px) {
-
 }
 
 /* Blog Array Media queries */
