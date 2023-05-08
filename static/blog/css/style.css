@@ -74,7 +74,8 @@ h2 {
 
 .card {
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    border-radius: 20px
+    border-radius: 20px;
+    
 }
 
 .image-container {
@@ -103,7 +104,7 @@ h2 {
 
 .masthead {
     margin-top: 10px;
-    overflow:auto;
+    overflow: hidden;
     position: relative;
     display: inline-block;
     height: 33vh;
@@ -131,6 +132,7 @@ h2 {
     border-top-right-radius: calc(0.25rem - 1px);
     border-radius: 20px;
 }
+
 
 .image-flash {
     position: absolute;
@@ -211,21 +213,6 @@ header.masthead {
     position: relative;
     background-size: cover;
 }
-
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: -1;
-    border-radius: 10px;
-}
 /* . {
     vertical-align: middle;
     width: 50%;
@@ -241,7 +228,7 @@ header.masthead {
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto; 
-    background-color: white;
+    
     
 }
 
@@ -429,6 +416,21 @@ footer .apps-icons i {
 }	
 .mt-3 {	
     margin-top: 3rem!important;	
+    
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #445261;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
 }
 
 .grouped-list {
@@ -666,7 +668,7 @@ p {
 }
 
 .left{
-    background: url("") no-repeat center;
+    
 	background-size: cover;
 	height: 100%;
 }
@@ -700,7 +702,7 @@ h2:after{
 	background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
-	margin-bottom: 22px;
+	
 	transition: .3s;
 }
 
@@ -782,7 +784,6 @@ input {
     background-color: rgba(230, 230, 230, 0.6);
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
-	margin-bottom: 22px;
 	transition: .3s;
 }
 
