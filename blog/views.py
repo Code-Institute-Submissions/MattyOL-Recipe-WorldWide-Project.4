@@ -35,15 +35,6 @@ def contact(request):
 
 
 def create_view(request):
-    context = {}
-    form = AddForm(request.POST or None)
-    if form.is_valid():
-        form.save()
-    context['form'] = form
-    return render(request, "add_post.html", context)
-
-
-def create_view(request):
 
     context = {}
 
@@ -55,7 +46,7 @@ def create_view(request):
     return render(request, "add_post.html", context)
 
 
-# update/edit 
+# update/edit
 
 
 def update_view(request, post_id):
@@ -63,14 +54,16 @@ def update_view(request, post_id):
     try:
         post_sel = Post.objects.get(id=post_id)
     except post.DoesNotExist:
-        return redirect('index')
+        return redirect('/')
     post_form = AddForm(request.POST or None, instance=post_sel)
     if post_form.is_valid():
         post_form.save()
-        return redirect('index')
-    return render(request, 'update_view.html', {'upload_form': post_form})
+        return redirect('/')
+    context = {}  
+    context['form'] = post_form
+    return render(request, 'update_view.html', context)
 
-# delete 
+# delete
 
 
 def delete_view(request, post_id):
