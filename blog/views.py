@@ -41,7 +41,6 @@ def create_view(request):
     form = AddForm(request.POST or None, initial={'author': request.user.id})
     if form.is_valid():
         form.save()
-        return redirect('/')
 
     context['form'] = form
     return render(request, "add_post.html", context)
@@ -66,6 +65,7 @@ def update_view(request, post_id):
         return render(request, 'update_view.html', context)
     else:
         return redirect("/")
+
 # delete
 
 
@@ -118,7 +118,7 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
-# Blog post Detail including liking/ commenting
+# Blog post Detail inluding liking/ commenting
 
 class PostDetail(View):
 

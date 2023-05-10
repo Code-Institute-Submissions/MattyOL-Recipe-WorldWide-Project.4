@@ -30,6 +30,8 @@ body {
     color: #000;
 }
 
+
+
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -76,6 +78,8 @@ h2 {
     
 }
 
+/* Blog post detail */
+
 .card-body {
     width: fit-content;
     min-height: fit-content;
@@ -87,7 +91,7 @@ h2 {
     
 }
 .cardbody ul {
-    font-family: oswald;
+    font-family: 'oswald';
 }
 
 
@@ -174,13 +178,6 @@ h2 {
     color: lightgray;
 }
 
-/* . {
-    vertical-align: middle;
-    width: 50%;
-    border-radius: 20px;
-    margin: 0px 300px;
-} */
-
 .link {
     color: #198819;
     text-decoration: none;
@@ -224,13 +221,7 @@ header.masthead {
     position: relative;
     background-size: cover;
 }
-/* . {
-    vertical-align: middle;
-    width: 50%;
-    border-radius: 20px;
-    margin: 0px 300px;
-    height: 300px;
-} */
+
 /* Sign in , Sign up  , Log Out */
 
 .container {
@@ -415,7 +406,7 @@ footer  i {
 
 
 .grouped-list {
-    font-family: oswald;
+    font-family: 'oswald';
 }
 
 .carousel-inner .carousel-item.active,
@@ -432,7 +423,7 @@ footer  i {
 }
 
 
-/* About us Page */
+/* About Page */
 
 .checkbtnh {
     font-size: 30px;
@@ -472,12 +463,12 @@ footer  i {
 }
 
 p {
-    font-family: oswald;
+    font-family: 'oswald';
 }
 
 #cover-about {
     font-size: 150%;
-    font-family: 'oswald', sans-serif;
+    font-family: 'oswald', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 6px;
     left: 50%;
@@ -513,6 +504,10 @@ p {
     height: auto;
     border-radius: 40px;
 }
+
+.textone {
+    width: 60%;
+}
 .textone h2 { 
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -540,15 +535,11 @@ p {
     text-transform: uppercase;
     font-size: 1.5rem;
     text-align: center;
-    padding: 30px 30px 30px 30px;
-    color: black;
-
 }
-
 
 .texttwo p {
     padding: 10px;
-    
+
     text-align: center;
     font-size: 1rem;
     color: black;
@@ -633,7 +624,7 @@ p {
         transform: rotate(0deg);
     }
 }
- /* Contact page */
+ /* Contact form-page */
 
 .contact-container{
 	position: relative;
@@ -666,12 +657,6 @@ p {
 	background-color: #fff;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
     border-radius: 30px
-}
-
-.left{
-    
-	background-size: cover;
-	height: 100%;
 }
 
 .right{
@@ -829,6 +814,7 @@ input {
 	filter: blur(50px);
 	z-index: -1;
 }
+/* Delete/edit buttons */
 
 .delete a i {
     color: red;
@@ -850,7 +836,7 @@ input {
 .edit a i:hover { transform: scale(1.7); }
 
 
-/* Media Queries 1300px and lower */ 
+/* Media Queries 1300px and lower  1300-370px */ 
 @media screen and (max-width: 1300px) {
     
     .aboutcontainer {
@@ -869,19 +855,6 @@ input {
         width: 100%;
     }
     
-}
-
-
-
-/* Blog Array Media queries */
-
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
 }
 
 @media (max-width: 550px) {
