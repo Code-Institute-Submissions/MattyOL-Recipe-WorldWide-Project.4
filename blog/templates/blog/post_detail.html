@@ -31,7 +31,8 @@
                     <!-- Use the | safe filter inside the template tags -->
                     <img class="postimage"  width="100%">
                     <p class="card-text ">
-                        {{ post.content | safe }}
+                        {{ post.ingredients | safe }}
+                        {{ post.recipe | safe }}
                     </p>
                     <div class="row">
 

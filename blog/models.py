@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
 
+
 STATUS = ((0, "Draft"), (1, "Published"))
 
 
@@ -23,7 +24,7 @@ class Category(models.Model):
         verbose_name = u'Category'
         verbose_name_plural = u'Categories'
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -34,11 +35,11 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     featured_image = CloudinaryField('image', default='placeholder')
-    excerpt = models.TextField(blank=True)
+    recipe = models.TextField(blank=True)
     updated_on = models.DateTimeField(auto_now=True)
     content_image = CloudinaryField('image', default='placeholder')
-    category = models.ManyToManyField(Category, verbose_name=u'Categories')
-    content = models.TextField()
+    category = models.ManyToManyField(Category)
+    ingredients = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=1)
     likes = models.ManyToManyField(

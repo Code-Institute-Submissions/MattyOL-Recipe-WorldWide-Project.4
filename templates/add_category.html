@@ -1,0 +1,21 @@
+{% extends 'base.html' %} {% block content %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+
+<form class="add-recipe-container" method="POST" enctype="multipart/form-data">
+    <div id="add-form-box" class="field" required>
+        <!-- Security token -->
+        {% csrf_token %}
+ 
+        <!-- Using the formset -->
+        {{ form.as_p }}
+        
+       
+        <input class="btn" type="submit" value="Submit">
+    </div>
+</form>
+
+
+{% endblock content %}

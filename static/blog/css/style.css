@@ -30,8 +30,6 @@ body {
     color: #000;
 }
 
-
-
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -89,7 +87,7 @@ h2 {
     
 }
 .cardbody ul {
-    font-family: fantasy;
+    font-family: oswald;
 }
 
 
@@ -417,7 +415,7 @@ footer  i {
 
 
 .grouped-list {
-    font-family: fantasy;
+    font-family: oswald;
 }
 
 .carousel-inner .carousel-item.active,
@@ -474,7 +472,7 @@ footer  i {
 }
 
 p {
-    font-family: fantasy;
+    font-family: oswald;
 }
 
 #cover-about {
@@ -515,12 +513,30 @@ p {
     height: auto;
     border-radius: 40px;
 }
+.textone h2 { 
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    color: black;
+}
 
 .textone {
     width: 60%;
 }
 
-.textone h2{
+.texttwo {
+    width: 60%;
+}
+
+.textone p {
+    padding-top: 55px;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
+
+.texttwo  h2{
     text-transform: uppercase;
     font-size: 1.5rem;
     text-align: center;
@@ -529,8 +545,10 @@ p {
 
 }
 
-.textone p{
-    padding: 10px ;
+
+.texttwo p {
+    padding: 10px;
+    
     text-align: center;
     font-size: 1rem;
     color: black;

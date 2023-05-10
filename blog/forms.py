@@ -1,4 +1,4 @@
-from .models import Comment, Post
+from .models import Comment, Post, Category
 from django import forms
 
 
@@ -12,4 +12,4 @@ class AddForm(forms.ModelForm):
 
     class Meta:
         model = Post
-        fields = ('title', 'author', 'content_image', 'content')
+        fields = ('title', 'author', 'content_image', 'slug', 'recipe', 'category')

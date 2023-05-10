@@ -38,9 +38,10 @@ def create_view(request):
 
     context = {}
 
-    form = AddForm(request.POST or None)
+    form = AddForm(request.POST or None, initial={'author': request.user.id})
     if form.is_valid():
         form.save()
+        return redirect('/')
 
     context['form'] = form
     return render(request, "add_post.html", context)
@@ -53,16 +54,18 @@ def update_view(request, post_id):
     post_id = int(post_id)
     try:
         post_sel = Post.objects.get(id=post_id)
-    except post.DoesNotExist:
+    except Post.DoesNotExist:
         return redirect('/')
-    post_form = AddForm(request.POST or None, instance=post_sel)
-    if post_form.is_valid():
-        post_form.save()
-        return redirect('/')
-    context = {}  
-    context['form'] = post_form
-    return render(request, 'update_view.html', context)
-
+    if post_sel.author == request.user:
+        post_form = AddForm(request.POST or None, instance=post_sel)
+        if post_form.is_valid():
+            post_form.save()
+            return redirect('/')
+        context = {}  
+        context['form'] = post_form
+        return render(request, 'update_view.html', context)
+    else:
+        return redirect("/")
 # delete
 
 
@@ -71,9 +74,10 @@ def delete_view(request, post_id):
     try:
         post_sel = Post.objects.get(id=post_id)
     except Post.DoesNotExist:
-        return redirect('index.html')
-    post_sel.delete()
-    return redirect('index.html')
+        return redirect('home')
+    if post_sel.author == request.user:
+        post_sel.delete()
+    return redirect('home')
 
 # 404 ERROR HANDLER
 
@@ -114,7 +118,7 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
-# Blog post Detail inluding liking/ commenting
+# Blog post Detail including liking/ commenting
 
 class PostDetail(View):
 
