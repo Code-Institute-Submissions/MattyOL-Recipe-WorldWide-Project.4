@@ -103,7 +103,7 @@ def error505_page(request):
 def get_queryset(request):
     query = request.GET.get("q")
     if query:
-        object_list = Post.objects.filter(content__icontains=query)
+        object_list = Post.objects.filter(ingredients__icontains=query)
         return render(request, 'blog/search_results.html', {'object_list': object_list})
     else:
         return render(request, '404.html')
