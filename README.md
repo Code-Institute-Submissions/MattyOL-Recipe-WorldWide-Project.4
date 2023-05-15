@@ -226,14 +226,16 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
     * Results: pass 
 
 ### Lighthouse Test's
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 * Home page
 
   * Desktop devices 
  <img width="638" alt="Screen Shot 2023-05-15 at 14 06 28" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/ebca8a9e-70b0-40ff-b91b-26dd6b201f93">
  
-   * Mobile devices 
+   * Mobile devices
 <img width="669" alt="Screen Shot 2023-05-15 at 14 05 46" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/04ca6d9e-f6e7-455d-af94-db8381038bd5">
+
 
 * About page 
   
@@ -243,6 +245,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
    * Mobile devices
   <img width="606" alt="Screen Shot 2023-05-15 at 14 08 23" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/88e7e347-945d-4fc1-92fc-4ea2586d3cfb">
  
+ 
 * Sign up page 
    
   * Desktop devices 
@@ -250,6 +253,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
   
    * Mobile devices 
 <img width="593" alt="Screen Shot 2023-05-15 at 14 12 09" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2c9fb3eb-10e5-40e8-805c-0cf84aa6cec9">
+
 
 * Login page 
   
@@ -259,6 +263,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
    * Mobile devices 
 <img width="560" alt="Screen Shot 2023-05-15 at 14 14 14" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2998940e-858c-44ec-a86b-913fc6641478">
  
+ 
 * Contact Form 
    
   * Desktop devices 
@@ -266,6 +271,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
 
    * Mobile devices 
 <img width="539" alt="Screen Shot 2023-05-15 at 14 16 50" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/f443cb21-ce2c-455b-861d-3a25a377e11b">
+
 
 * Add recipe page 
   
@@ -275,6 +281,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
    * Mobile devices 
 <img width="525" alt="Screen Shot 2023-05-15 at 14 18 46" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/481eb40c-c602-48f6-a5b0-349accff7308">
 
+
 * 404 error page 
 
   * Desktop devices 
@@ -283,12 +290,14 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
    * Mobile devics 
 <img width="618" alt="Screen Shot 2023-05-15 at 14 21 01" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/6fa74742-6ae1-4dbf-835f-a2fd2eddfe8b">
 
+
 * Log out page 
 
    * Desktop devices 
 <img width="586" alt="Screen Shot 2023-05-15 at 14 23 18" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/406414bd-33a6-4839-8b29-b8df95e9eb69">
 
-    * Mobile device
+    * Mobile devices
+    
    <img width="632" alt="Screen Shot 2023-05-15 at 14 24 01" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/821979bc-eafc-4506-951b-63ea088433cc">
 
 # Tools & Technologie Used in this project 
@@ -432,7 +441,7 @@ To avoid affecting the original owner's repository, a copy of the original repos
 
  1. Log in to GitHub and locate the repository 
 
- 2 .At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+ 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 
  3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
