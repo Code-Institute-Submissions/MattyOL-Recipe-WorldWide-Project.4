@@ -512,38 +512,28 @@ p {
     text-transform: uppercase;
     font-size: 1.5rem;
     text-align: center;
-    padding: 30px 30px 30px 30px;
     color: black;
+    padding-top: 20px;
 }
 
 .textone {
     width: 60%;
 }
 
-.texttwo {
-    width: 60%;
+.textone p span {
+    font-size: 25px;
 }
+
 
 .textone p {
-    padding-top: 55px;
-    text-align: center;
+    padding-top: 25px;
+    text-align: left;
     font-size: 1rem;
     color: black;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.texttwo  h2{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.texttwo p {
-    padding: 10px;
-
-    text-align: center;
-    font-size: 1rem;
-    color: black;
-}
 /* 404 Handler 500 Handler  */
 
 .wrapper {
@@ -856,6 +846,20 @@ input {
     }
     
 }
+@media (max-width: 750px) {
+    .main h2 {
+        font-size: 50px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+    .text span {
+        font-size: 15px;
+    }
+    .text button a {
+        font-size: 10px;
+    }
+}
 
 @media (max-width: 550px) {
     .signup p {
@@ -875,9 +879,7 @@ input {
         font-size: 10px;
     }
 
-    .footer i {
-        padding: 10px;
-    }
+
 }
 
 @media (max-width: 370px) {

@@ -28,7 +28,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = 'DEBUG' in os.environ
 
 ALLOWED_HOSTS = ['project-4-fsf.herokuapp.com', 'localhost', '127.0.0.1']
 
@@ -107,8 +107,7 @@ WSGI_APPLICATION = 'Websitename.wsgi.application'
 
 DATABASES = {
      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
- }
-
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
