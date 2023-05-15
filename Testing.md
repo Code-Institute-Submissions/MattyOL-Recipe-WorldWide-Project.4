@@ -1,8 +1,45 @@
 ### Return to README.md
 
 [README.md](https://github.com/MattyOL/Recipe-WorldWide-Project.4/edit/main/Testing.md#:~:text=Procfile-,README,-.md)
+## Code Validation
+I have used the recommended HTML W3C Validator to validate all of my HTML files.
 
-## Manual Test's
+In order to properly validate my HTML pages with Jinja syntax for authenticated pages, I followed these steps:
+
+* Navigate to the deployed pages which require authentication
+* Right-click anywhere on the page, and select View Page Source (usually CTRL+U or ⌘+U on Mac).
+* This will display the entire "compiled" code, without any Jinja syntax.
+* Copy everything, and use the validate by input method.
+* Repeat this process for every page that requires a user to be logged-in/authenticated
+### Home-page 
+
+### Sign-up
+* no issues 
+<img width="1382" alt="Screen Shot 2023-05-15 at 17 51 47" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/49d2cb66-c179-491a-b1bc-db1f8e2a394d">
+
+
+### Login 
+* no issues 
+<img width="1382" alt="Screen Shot 2023-05-15 at 17 51 47" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/332ca842-5ed7-466c-8c11-675c2455e21a">
+
+
+### Contact form 
+* no issues 
+<img width="1399" alt="Screen Shot 2023-05-15 at 17 54 17" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/934006b4-afac-483d-9e46-a918d46f7c7b">
+
+
+
+### Add recipe 
+* no issues 
+<img width="1383" alt="Screen Shot 2023-05-15 at 17 55 44" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/15b1ea56-7700-4d6a-ab67-fc34e475bd98">
+
+
+### 404 error page
+* no issues 
+<img width="1407" alt="Screen Shot 2023-05-15 at 17 58 11" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/a54283b6-4bcf-40cb-8c72-85029063ba8b">
+
+
+## Manual Testing 
 1. * Test: click on Login button
 
    * Expected result: taken to login screen.
