@@ -11,7 +11,11 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 * This will display the entire "compiled" code, without any Jinja syntax.
 * Copy everything, and use the validate by input method.
 * Repeat this process for every page that requires a user to be logged-in/authenticated
+
 ### Home-page 
+* no issues 
+<img width="1389" alt="Screen Shot 2023-05-15 at 19 03 02" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/f141ec09-797a-41db-a947-bca35b86427d">
+
 
 ### Sign-up
 * no issues 
