@@ -102,6 +102,11 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 ## Future Features's
+* Create A video tutorials of cooking recipes at home. 
+* Give the user an option for Dark mode for the website.
+* Create a Reset Password option that sends the user an email for reseting there password.
+* Create an array of blog posts in a category so when a user submits a post thats already created its more organised and can we used as a slideshout 
+* Create more Giveaways and competeions.
 
 ## Database Design
 
