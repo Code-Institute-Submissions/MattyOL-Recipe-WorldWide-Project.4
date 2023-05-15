@@ -300,6 +300,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
     
    <img width="632" alt="Screen Shot 2023-05-15 at 14 24 01" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/821979bc-eafc-4506-951b-63ea088433cc">
 
+# Git terminal Commands Guide 
+<img width="764" alt="Screen Shot 2023-05-15 at 16 06 13" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/144ab711-d889-4f32-9390-81aab2436d78">
+
 # Tools & Technologie Used in this project 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 
