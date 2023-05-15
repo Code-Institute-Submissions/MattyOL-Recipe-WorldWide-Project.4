@@ -1,7 +1,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html class="h-100">
+<html class="h-100" lang="en">
 
 <head>
     <title>RECIPE WorldWide</title>
@@ -65,7 +65,7 @@
                 <form class="d-flex" method="get" action="{% url 'get_queryset' %}">
                     {% csrf_token %}
                     <input class="form-control me-2" type="text" placeholder="search" aria-label="search" name="q">
-                    <button class="btn" class="searchf" type="submit">Search</button>
+                    <button class="btn" id="searchf" type="submit">Search</button>
                 </form>
             </div>
         </div>

@@ -716,7 +716,7 @@ textarea{
     background-color: #fff;
 }
 
-.searchf:focus {
+#searchf:focus {
     border: 2px solid rgba(180, 182, 189, 0.47);
     background-color: #fff;
 }
