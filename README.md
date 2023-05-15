@@ -130,6 +130,100 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
 
 ## Testing 
 
+### Manual test's 
+
+1. * Test: click on Login button
+
+   * Expected result: taken to login screen.
+  
+   * Result: pass 
+  
+2. * Test:click on Sign up form.
+
+   * Expected: taken too signup form Create an account.
+  
+   * Result: pass.                        
+
+3. * Test: Home button navbar.
+
+   * Expected: taken to home page.
+  
+   * Results: pass.
+                                                                               
+4. * Test:Click Contact form. 
+
+   * Expected:to be brought to page, form filled out, submit. 
+  
+   * Result: pass. 
+  
+5. * Test: Click Add Recipe.             
+
+   * Expected: To be brought to page.
+  
+   * Result: pass. 
+  
+6. * Test:Search bar searches recipe.
+
+   * Expected: To be displayed with recipes. 
+  
+   * Result: pass 
+  
+7. * Test: Search invalid entry to display 404 error.
+
+   * Expected: To be brought to 404error feedback.
+  
+   * Result: pass.
+  
+8. * Test: Go back button on 404page.
+
+   * Expected: to return to home.
+  
+   * Result: pass.
+  
+9. * Test: Logout. 
+
+   * Expected: user to logout.
+  
+   * Result: pass
+  
+10. * Test: When user clicks a blog post. 
+
+    * Expected: To be brought into the posts info.
+   
+    * Results: pass.
+   
+11. * Test: User deletes post they created.
+
+    * Expected: post can only be deleted by the user/admin.
+   
+    * Results: pass.
+   
+12. * Test: User can edit the post they created.
+
+    * Expected: User can only edit the post they have created.
+   
+    * Result: pass. 
+
+13. * Test: Next page button 
+
+    * Expected: to be brought onto next page of blof post's
+    
+    * Result: pass 
+
+14. * Test: likes/comments on posts 
+     
+    * Expected: The admin has to verify like/comments on post when submitted
+    
+    * Results: pass 
+    
+15. * Test: websites name is clickable 
+
+    * Expected: to refresh to home-page 
+    
+    * Results: pass 
+     
+
+ 
 
 # Tools & Technologie Used in this project 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
