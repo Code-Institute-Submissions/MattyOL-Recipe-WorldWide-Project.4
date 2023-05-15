@@ -38,6 +38,11 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 * no issues 
 <img width="1407" alt="Screen Shot 2023-05-15 at 17 58 11" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/a54283b6-4bcf-40cb-8c72-85029063ba8b">
 
+## Css Testing 
+* I have used the recommended CSS Jigsaw Validator to validate my CSS file. 
+* No issues 
+<img width="1335" alt="Screen Shot 2023-05-15 at 18 03 29" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/3778965e-73d3-4dff-ae1c-7eb0d958c4bb">
+
 
 ## Manual Testing 
 1. * Test: click on Login button
