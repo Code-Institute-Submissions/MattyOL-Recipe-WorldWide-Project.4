@@ -28,7 +28,7 @@
                             <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
                                 {% if request.user.is_authenticated %}
-                            <div class="delet-edit">
+                            <div class="delete-edit">
                                 <div class="delete">
                                     <a href="{% url 'delete_post' post.id %}" id ="{{post.id}}"><i class="fas fa-trash-alt"></i></a>
                                 </div>
