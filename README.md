@@ -13,14 +13,17 @@ I wanted to keep the colour scheme quite simpley so its easy for the user to nav
 ### Colour Scheme 
 
 <img width="56" alt="Screen Shot 2023-05-04 at 13 29 29" src="https://user-images.githubusercontent.com/111317260/236205297-4a7eaf21-4fcd-4265-a6ea-ae74d2b8d751.png"> rgb(67, 97, 67)
+
 <img width="52" alt="Screen Shot 2023-05-04 at 13 29 21" src="https://user-images.githubusercontent.com/111317260/236205393-d3c108cf-dd44-46b5-a9fd-e868e202fde1.png"> white 
+
 <img width="46" alt="Screen Shot 2023-05-04 at 13 29 14" src="https://user-images.githubusercontent.com/111317260/236205480-bd0f07f5-e2be-404d-9a0f-b38ea4601b39.png"> rgb(175, 174, 174)
+
 <img width="37" alt="Screen Shot 2023-05-04 at 13 29 08" src="https://user-images.githubusercontent.com/111317260/236205500-4725147f-fe68-435b-8f91-c3a74f8a88b5.png"> #2ecc71
 
 ### Typography
 Lato, sans-serif was used for the website name , navbar , easy to read for any user. 
 
-Fantasy was used for the for the text across the body of the site including the blog posts.
+oswald was used for the for the text across the body of the site including the blog posts.
 
 
 
@@ -130,7 +133,7 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
 
 ## Testing 
 
-### Manual test's 
+### Manual Test's 
 
 1. * Test: click on Login button
 
@@ -221,9 +224,72 @@ Prior to prioritizing and implementing the Epics, I broke them down into smaller
     * Expected: to refresh to home-page 
     
     * Results: pass 
-     
 
+### Lighthouse Test's
+
+* Home page
+
+  * Desktop devices 
+ <img width="638" alt="Screen Shot 2023-05-15 at 14 06 28" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/ebca8a9e-70b0-40ff-b91b-26dd6b201f93">
  
+   * Mobile devices 
+<img width="669" alt="Screen Shot 2023-05-15 at 14 05 46" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/04ca6d9e-f6e7-455d-af94-db8381038bd5">
+
+* About page 
+  
+  * Desktop devices 
+ <img width="642" alt="Screen Shot 2023-05-15 at 14 07 58" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/9e5e2265-1981-4d40-80c3-a78c9b454733">
+ 
+   * Mobile devices
+  <img width="606" alt="Screen Shot 2023-05-15 at 14 08 23" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/88e7e347-945d-4fc1-92fc-4ea2586d3cfb">
+ 
+* Sign up page 
+   
+  * Desktop devices 
+<img width="617" alt="Screen Shot 2023-05-15 at 14 11 47" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/e32d06a1-4bea-4258-862c-fb85a693400a">
+  
+   * Mobile devices 
+<img width="593" alt="Screen Shot 2023-05-15 at 14 12 09" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2c9fb3eb-10e5-40e8-805c-0cf84aa6cec9">
+
+* Login page 
+  
+  * Desktop devices 
+<img width="587" alt="Screen Shot 2023-05-15 at 14 13 50" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/b0a2a895-6bd7-479c-b08b-b34ee47975da">
+  
+   * Mobile devices 
+<img width="560" alt="Screen Shot 2023-05-15 at 14 14 14" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2998940e-858c-44ec-a86b-913fc6641478">
+ 
+* Contact Form 
+   
+  * Desktop devices 
+<img width="577" alt="Screen Shot 2023-05-15 at 14 16 28" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/44f07ebc-57ed-4c45-8cd0-9ade04c28d4c">
+
+   * Mobile devices 
+<img width="539" alt="Screen Shot 2023-05-15 at 14 16 50" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/f443cb21-ce2c-455b-861d-3a25a377e11b">
+
+* Add recipe page 
+  
+  * Desktop devices 
+<img width="578" alt="Screen Shot 2023-05-15 at 14 18 23" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/ebfc36b2-6b57-489d-85cd-0bb61120ec4f">
+
+   * Mobile devices 
+<img width="525" alt="Screen Shot 2023-05-15 at 14 18 46" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/481eb40c-c602-48f6-a5b0-349accff7308">
+
+* 404 error page 
+
+  * Desktop devices 
+<img width="551" alt="Screen Shot 2023-05-15 at 14 20 04" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/4082d112-8952-4061-b634-fbb105ea5a22">
+  
+   * Mobile devics 
+<img width="618" alt="Screen Shot 2023-05-15 at 14 21 01" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/6fa74742-6ae1-4dbf-835f-a2fd2eddfe8b">
+
+* Log out page 
+
+   * Desktop devices 
+<img width="586" alt="Screen Shot 2023-05-15 at 14 23 18" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/406414bd-33a6-4839-8b29-b8df95e9eb69">
+
+    * Mobile device
+   <img width="632" alt="Screen Shot 2023-05-15 at 14 24 01" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/821979bc-eafc-4506-951b-63ea088433cc">
 
 # Tools & Technologie Used in this project 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
