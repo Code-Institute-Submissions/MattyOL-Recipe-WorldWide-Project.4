@@ -72,6 +72,32 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
 
 ## Feature's
+* Home-Page 
+  * The Landing page consists of a Nav-Bar that displays a Home-page About-page, Signup-page , Login.  A search-bar and also displays 6 Recipe posts which also the user can click next to navigate onto the rest of the blog posts on the next page. 
+  
+* Search-Bar
+  * The Search bar feature is there to make searching up a recipe more easy for the user so they can check for a pacific recipe.
+  
+* 404-page
+  * The 404-error page feature is Added so when the user searches an invalid entry into the search bar they are greeted with a feedback indicating there submission was not valid, Giving them the option to "Go Back" to the landing page (home) easily.
+  
+* About page
+  * The About page can be clicked even when the user has not created an account yet this part of the website is to show the user the sites intentions and what they have to offer.
+  
+* Signup page 
+   * This is were the user comes to Create an account with the us to get new features such as our Contact form and Add recipe with Crud functionality.
+   
+* login 
+  * This is were the user comes to Login after they have signed up or are returning to the site. 
+  
+* Contact form
+  * The contact form is there for the user to entry are competions for pirzes and also get in contact if they have any issues, Ideas or general queries.
+  
+* Add Recipe form 
+  * This is were the user can easily Create Read Update and delete (CRUD) there Recipe they want to create, The user can only edit or delete the recipe they make, The admin can Edit or elete ay post they wish too at any given time. 
+  
+* Logout 
+  * This is were the user can logout of there account at any given time when they are not using the website.
 
 
 
@@ -84,19 +110,20 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 ## Agile Development Process
 
 ### GitHub Projects
+This project utilized GitHub Projects as an Agile tool. Although not a dedicated tool, it was customized with appropriate tags, project creation, and issue assignments to fit the project's needs.
 
-GitHub Projects was employed as an Agile tool for this project. By using the appropriate tags, and creating and assigning issues to the project, it was adapted to work effectively.
+The tool was used to visualize the development progress of the project by mapping user stories onto a basic Kanban board. It enabled me to identify the work backlog and to move tasks across the board as they were being worked on, tested, and signed off upon completion.
 
-* **Must have** = Guaranteed delivery.
-* * **Could have** =  has small impact if left out.
-* * **Bug** 
-* **Enhancement** = To make to site more user friendly.
-
-* The development progress of the project was mapped out using user stories through a basic Kanban board. This allowed me to visualize the backlog of work that needed to be completed and move tasks across as I worked on them before testing and signing off on them to indicate completion. Furthermore, MoSCoW Prioritization was implemented to prioritize the tasks based on their importance.
-* img 
 
 ### MoSCoW Prioritization
-Before prioritizing and implementing the Epics, I decomposed them into smaller stories. This approach allowed me to apply the MoSCoW prioritization and labels to the user stories within the Issues tab.
+Prior to prioritizing and implementing the Epics, I broke them down into smaller stories using a decomposition approach. This method enabled me to apply the MoSCoW prioritization and labels to the individual user stories within the Issues tab
+
+* **Must have** = Guaranteed delivery.
+* **Could have** =  has small impact if left out.
+* **Bug** 
+* **Enhancement** = To make to site more user friendly.
+
+## Testing 
 
 
 # Tools & Technologie Used in this project 
@@ -141,6 +168,16 @@ To obtain your own Postgres Database, sign-up with your GitHub account, then fol
 * You can leave the Tags blank.
 * Select the Region and Data Center closest to you.
 * Once created, click on the new database name, where you can view the database URL and Password.
+
+# Cloudinary API
+This project uses the Cloudinary API to store media assets online, due to the fact that Heroku doesn't persist this type of data.
+
+To obtain your own Cloudinary API key, create an account and log in.
+
+* For Primary interest, you can choose Programmable Media for image and video API.
+* Optional: edit your assigned cloud name to something more memorable.
+* On your Cloudinary Dashboard, you can copy your API Environment Variable.
+* Be sure to remove the CLOUDINARY_URL= as part of the API value; this is the key.
 
 # Heroku Deployment
 Heroku, a platform as a service (PaaS), was employed for this project. This cloud-based platform enables developers to build, run, and manage applications entirely on the cloud.
@@ -199,11 +236,6 @@ import os
 os.environ.setdefault("CLOUDINARY_URL", "insert your own Cloudinary API key here")
 os.environ.setdefault("DATABASE_URL", "insert your own ElephantSQL database URL here")
 os.environ.setdefault("SECRET_KEY", "this can be any random secret key")
-
-# local environment only 
-(do not include these in production/deployment!)
-## Important 
-os.environ.setdefault("DEBUG", "True")
 
 
 Once the project is cloned or forked, in order to run it locally, you'll need to follow these steps:
