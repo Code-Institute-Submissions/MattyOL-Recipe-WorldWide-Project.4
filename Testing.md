@@ -63,95 +63,79 @@ I done sone some test in the test.py file using the terminal to get results usin
 
 
 ## Manual Testing 
-1. * Test: click on Login button
-
+1. * Test: click on Login button.
    * Expected result: taken to login screen.
-
-   * Result: pass
+   * Result: pass.
 
 2. * Test:click on Sign up form.
-
    * Expected: taken too signup form Create an account.
-
    * Result: pass.
 
 3. * Test: Home button navbar.
-
    * Expected: taken to home page.
-
    * Results: pass.
 
 4. * Test:Click Contact form.
-
    * Expected:to be brought to page, form filled out, submit.
-
    * Result: pass.
 
 5. * Test: Click Add Recipe.
-
    * Expected: To be brought to page.
-
    * Result: pass.
 
 6. * Test:Search bar searches recipe.
-
    * Expected: To be displayed with recipes.
-
-   * Result: pass
-
+   * Result: pass.
+   
 7. * Test: Search invalid entry to display 404 error.
-
    * Expected: To be brought to 404error feedback.
-
    * Result: pass.
 
 8. * Test: Go back button on 404page.
-
    * Expected: to return to home.
-
    * Result: pass.
 
 9. * Test: Logout.
-
    * Expected: user to logout.
-
-   * Result: pass
+   * Result: pass.
 
 10. * Test: When user clicks a blog post.
-
     * Expected: To be brought into the posts info.
-
     * Results: pass.
 
 11. * Test: User deletes post they created.
-
     * Expected: post can only be deleted by the user/admin.
-
     * Results: pass.
 
 12. * Test: User can edit the post they created.
-
     * Expected: User can only edit the post they have created.
-
     * Result: pass.
 
-13. * Test: Next page button
+13. * Test: Next page button.
+    * Expected: to be brought onto next page of blof post's.
+    * Result: pass.
 
-    * Expected: to be brought onto next page of blof post's
+13. * Test: likes/comments on posts.
+    * Expected: The admin has to verify like/comments on post when submitted.
+    * Results: pass.
 
-    * Result: pass
+14. * Test: websites name is clickable.
+    * Expected: to refresh to home-page.
+    * Results: pass.
 
-13. * Test: likes/comments on posts
+15. * Test: if contact for gets sent to admin.
+    * Expected: admin gets email sent from contact for filled by user. 
+    * Results: pass.
 
-    * Expected: The admin has to verify like/comments on post when submitted
+16. * Test: User cannot delete a post they didnt create.
+    * Expected: To be not aloud to delete a post they did not create. 
+    * Results: pass.
 
-    * Results: pass
+17. * Test: When a user is not signed in can they view the contact/add recipe form. 
+    * Expected: Not to be able to see the contact/add recipe form.
+    * Results: pass.
 
-14.  * Test: websites name is clickable
 
-     * Expected: to refresh to home-page
-
-     * Results: pass
 
 
 ## Lighthouse Test's
