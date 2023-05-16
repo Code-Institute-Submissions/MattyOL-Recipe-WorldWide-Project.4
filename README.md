@@ -229,6 +229,7 @@ I used this guide throughout my project for solving terminal issues.
 13.[Cloudinary](https://cloudinary.com/) used for online static file storage.
 
 14. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)[diff checker](https://www.diffchecker.com/) used to check for typos in my README and TESTING files.# Deployment 
+15. Jquery
 
 # ElephantSQl DataBase
 The live Link to deployment can be found on [Live link Heroku](https://project-4-fsf.herokuapp.com/)
