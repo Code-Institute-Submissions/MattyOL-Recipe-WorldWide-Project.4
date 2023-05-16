@@ -38,7 +38,7 @@ def create_view(request):
 
     context = {}
 
-    form = AddForm(request.POST or None, initial={'author': request.user.id})
+    form = AddForm(request.POST, request.FILES, initial={'author': request.user.id})
     if form.is_valid():
         form.save()
 
@@ -60,7 +60,7 @@ def update_view(request, post_id):
         if post_form.is_valid():
             post_form.save()
             return redirect('home')
-        context = {}  
+        context = {}
         context['form'] = post_form
         return render(request, 'update_view.html', context)
     else:
@@ -82,10 +82,6 @@ def delete_view(request, post_id):
 # 404 ERROR HANDLER
 
 
-def custom_view(request):
-    return render(request, '500.html')
-
-
 def custom_view(request, exception):
     return render(request, '404.html', status=404)
 
@@ -93,11 +89,7 @@ def custom_view(request, exception):
 def error404_page(request):
     return render(request, '../templates/blog/404.html')
 
-
-def error505_page(request):
-    return render(request, '../templates/blog/505.html')
-
-# search results invalid search to respond with 404 template
+# Search results
 
 
 def get_queryset(request):
@@ -107,6 +99,7 @@ def get_queryset(request):
         return render(request, 'blog/search_results.html', {'object_list': object_list})
     else:
         return render(request, '404.html')
+
 
 # post list amount on website page 6
 

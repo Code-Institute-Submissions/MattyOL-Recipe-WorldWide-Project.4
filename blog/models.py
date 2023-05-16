@@ -5,6 +5,8 @@ from cloudinary.models import CloudinaryField
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
+# Contact
+
 
 class Contact(models.Model):
     name = models.CharField(max_length=200)
@@ -13,6 +15,8 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.name
+
+# Cateogory
 
 
 class Category(models.Model):
@@ -25,6 +29,8 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+
+# Post Model / blog / Addrecipe
 
 
 class Post(models.Model):
@@ -53,6 +59,8 @@ class Post(models.Model):
 
     def number_of_likes(self):
         return self.likes.count()
+
+# comment / admin
 
 
 class Comment(models.Model):
