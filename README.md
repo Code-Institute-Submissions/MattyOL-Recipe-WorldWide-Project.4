@@ -84,8 +84,21 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
   * The Search bar feature is there to make searching up a recipe more easy for the user so they can check for a pacific recipe.
 ![Screen Shot 2023-05-16 at 13 52 05](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2165c082-9a2b-4b7c-aa8a-2f7ed1ab709b)
 
+* Likes effect
+  * likes on posts left from users are display for the cover of the post and inside the post.
   
-* 404-page
+  <img width="462" alt="Screen Shot 2023-05-16 at 15 58 23" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/371b4758-b84b-407d-841b-71bbe404a2d7">
+
+
+* Comments effect 
+  * comments can be left by users on a recipe they like when they are sign in to there account this is display when the user click the post and scrolls to the bottom of the page, The administrator has to verify the comment before its published to the website.
+
+<img width="1380" alt="Screen Shot 2023-05-16 at 15 58 41" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/064ce407-0740-4022-8022-e1bc5438435a">
+
+
+  
+* 404-page<img width="1380" alt="Screen Shot 2023-05-16 at 15 58 41" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/9c0efedc-dec1-46f8-8183-931118625613">
+
   * The 404-error page feature is Added so when the user searches an invalid entry into the search bar they are greeted with a feedback indicating there submission was not valid, Giving them the option to "Go Back" to the landing page (home) easily.
   
   ![Screen Shot 2023-05-16 at 13 22 49](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/26024e7f-7dd8-4f75-bf01-5d3e1084a44e)
