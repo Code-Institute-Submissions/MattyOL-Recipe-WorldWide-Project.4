@@ -26,19 +26,6 @@ Lato, sans-serif was used for the website name , navbar , easy to read for any u
 
 oswald was used for the for the text across the body of the site including the blog posts.
 
-
-
-
-# User Storie's
-
-
-
-
-
-
-
-
-
 # Wireframe's
 
 To have a better plan for developing my website, I utilized Justinmind.com to produce wireframes that serve as a guide on how I want the website to be created
@@ -147,7 +134,7 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 ![Screen Shot 2023-05-16 at 13 33 20](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/e8b6c9c6-35c6-4cec-9595-a226018aa7b2)
 
 * Alerts 
-  There is an alert when you sign in logout , add recipe , edit recipe , delete recipe to let the user know what they are doing has happned. 
+  There is an alert when you sign in logout , add recipe , edit recipe , delete recipe to let the user know what they have done has been completed. 
 * logged in
 <img width="1136" alt="Screen Shot 2023-05-16 at 23 45 17" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/0863c0a3-f0d9-41cd-a250-bf6d9f8860f8">
 
@@ -163,17 +150,12 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 <img width="960" alt="Screen Shot 2023-05-16 at 23 48 20" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2e640a52-14be-44a3-9f3b-e77d6ebb5554">
 
 
-*
 ## Future Features's
 * Create A video tutorials of cooking recipes at home. 
 * Give the user an option for Dark mode for the website.
 * Create a Reset Password option that sends the user an email for reseting there password.
 * Create an array of blog posts in a category so when a user submits a post thats already created its more organised and can we used as a slideshout 
 * Create more Giveaways and competeions.
-
-## Database Design
-
-## Models 
 
 ## Agile Development Process
 
