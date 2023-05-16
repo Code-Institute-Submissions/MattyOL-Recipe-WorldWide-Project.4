@@ -7,6 +7,7 @@ from django.views import generic, View
 from django.http import HttpResponseRedirect, HttpResponse
 from .models import Post, Contact
 from .forms import AddForm, CommentForm
+from django.contrib import messages
 
 # about page
 
@@ -41,6 +42,7 @@ def create_view(request):
     form = AddForm(request.POST, request.FILES, initial={'author': request.user.id})
     if form.is_valid():
         form.save()
+        messages.success(request, 'Created Post successful !')
 
     context['form'] = form
     return render(request, "add_post.html", context)

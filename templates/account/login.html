@@ -28,7 +28,13 @@
             <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
             <p><a href="{% url 'password_reset' %}">Lost password?</a></p>
             {% endif %}
-            <button class="btn" type="submit">{% trans "Sign In" %}</button>
+            <button class="btn" id="signedin" type="submit">{% trans "Sign In" %}</button>
+            <script>
+              $("#signedin").click(function() {
+                 alert("Signed in Successfull.").fadeOut('slow', 3000);
+              });
+              
+          </script>
           </form>
         </div>
       </div>

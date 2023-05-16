@@ -8,9 +8,16 @@
     <div id="add-form-box" class="field">
         <!-- Security token -->
         {% csrf_token %}
- 
+        {% if messages %}
+        <ul class="messages">
+        {% for message in messages %}
+        <li  {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {{ message }} </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
         <!-- Using the formset -->
         {{ form.as_p }}
+       
         
        
         <button class="btn">Submit</button>

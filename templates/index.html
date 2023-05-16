@@ -30,8 +30,14 @@
                                 {% if request.user.is_authenticated %}
                             <div class="delete-edit">
                                 <div class="delete">
-                                    <a href="{% url 'delete_post' post.id %}" id ="{{post.id}}"><i class="fas fa-trash-alt"></i></a>
+                                    <a href="{% url 'delete_post' post.id %}" id ="deletebutton"><i class="fas fa-trash-alt"></i></a>
                                 </div>
+                                <script>
+                                    $("#deletebutton").click(function() {
+                                       alert(" Post deleted.").fadeOut('slow', 3000);
+                                    });
+                                    
+                                </script>
                                 <div class="edit">
                                     <a href="{% url 'update_post' post.id %}"><i class="fas fa-edit"></i></a>
                                 </div>

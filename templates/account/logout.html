@@ -15,7 +15,13 @@
     {% if redirect_field_value %}
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
     {% endif %}
-    <button id="btn btn-signout right" class="btn-out" type="submit">{% trans 'Log out' %}</button>
+    <button id="loggedout"  class="btn btn-signout right btn-out" type="submit">{% trans 'Log out' %}</button>
+    <script>
+      $("#loggedout").click(function() {
+         alert("You are now Logged out.").fadeOut('slow', 3000);
+      });
+      
+  </script>
   </form>
 </div>
 

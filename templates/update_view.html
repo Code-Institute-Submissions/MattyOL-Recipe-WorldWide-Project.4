@@ -11,9 +11,16 @@
  
         <!-- Using the formset -->
         {{ form.as_p | safe}}
+
         {{ form.content | safe}}
-       
-        <input class="btn" class="searchf" type="submit" value="Save">
+        <input id="submitForm" class="btn" class="searchf" type="submit" value="Save">
+        
+        
+        <script>
+            $("#submitForm").click(function() {
+               alert("The Form has been Submitted.");
+            });
+         </script>
     </div>
 </form>
 
