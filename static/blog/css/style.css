@@ -868,6 +868,12 @@ input {
     .aboutcontainer {
         flex-direction: column-reverse;
     }
+    .kitchencontainer {
+        flex-direction: column-reverse;
+    }
+    .textone{
+        width: 100%;
+    }
 
     .recipecontainer {
         flex-direction: column-reverse;
