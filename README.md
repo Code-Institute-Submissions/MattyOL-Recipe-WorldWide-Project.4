@@ -132,7 +132,7 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 
   
 * Contact form
-  * The contact form is there for the user to entry are competions for pirzes and also get in contact if they have any issues, Ideas or general queries. This can only be used by members who are signed up/logged in.
+  * The contact form is there for the user to entry are competions for prizes and also get in contact if they have any issues, Ideas or general queries. This can only be used by members who are signed up/logged in. When submited this will be sent to the administrator where they can take further action.
   
   ![Screen Shot 2023-05-16 at 13 32 32](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/bc5e022f-ca21-4603-8992-a4c75eba47d6)
 
