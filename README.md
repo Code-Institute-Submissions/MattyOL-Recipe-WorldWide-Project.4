@@ -77,30 +77,45 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
 ## Feature's
 * Home-Page 
   * The Landing page consists of a Nav-Bar that displays a Home-page About-page, Signup-page , Login.  A search-bar and also displays 6 Recipe posts which also the user can click next to navigate onto the rest of the blog posts on the next page. 
+  <img width="970" alt="Screen Shot 2023-05-16 at 13 19 22" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/17e4e7a5-545b-4a15-a3cf-c2984eadea6c">
+![Screen Shot 2023-05-16 at 13 19 33](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/991534f7-31af-4029-ad69-27af54a7fc88)
   
 * Search-Bar
   * The Search bar feature is there to make searching up a recipe more easy for the user so they can check for a pacific recipe.
+![Screen Shot 2023-05-16 at 13 22 30](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/1150e5ae-4720-4c83-a67b-052b027c1607)
   
 * 404-page
   * The 404-error page feature is Added so when the user searches an invalid entry into the search bar they are greeted with a feedback indicating there submission was not valid, Giving them the option to "Go Back" to the landing page (home) easily.
+  ![Screen Shot 2023-05-16 at 13 22 49](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/26024e7f-7dd8-4f75-bf01-5d3e1084a44e)
   
 * About page
   * The About page can be clicked even when the user has not created an account yet this part of the website is to show the user the sites intentions and what they have to offer.
+  ![Screen Shot 2023-05-16 at 13 24 47](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/5e20e6ed-4b62-4a3a-a6c9-5b04584230e9)
+
   
 * Signup page 
    * This is were the user comes to Create an account with the us to get new features such as our Contact form and Add recipe with Crud functionality.
+   ![Screen Shot 2023-05-16 at 13 28 02](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/c7b38cf3-9495-4842-afab-82e15c6b7a0a)
+
    
 * login 
   * This is were the user comes to Login after they have signed up or are returning to the site. 
+  ![Screen Shot 2023-05-16 at 13 28 11](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/9f8d18ed-cf8c-4073-a282-36c91d166367)
+
   
 * Contact form
-  * The contact form is there for the user to entry are competions for pirzes and also get in contact if they have any issues, Ideas or general queries.
-  
+  * The contact form is there for the user to entry are competions for pirzes and also get in contact if they have any issues, Ideas or general queries. This can only be used by members who are signed up/logged in.
+  ![Screen Shot 2023-05-16 at 13 32 32](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/bc5e022f-ca21-4603-8992-a4c75eba47d6)
+
 * Add Recipe form 
   * This is were the user can easily Create Read Update and delete (CRUD) there Recipe they want to create, The user can only edit or delete the recipe they make, The admin can Edit or elete ay post they wish too at any given time. 
+  ![Screen Shot 2023-05-16 at 13 32 50](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/c04889b3-6172-46b3-8425-07bfce32147b)
   
 * Logout 
   * This is were the user can logout of there account at any given time when they are not using the website.
+![Screen Shot 2023-05-16 at 13 33 20](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/e8b6c9c6-35c6-4cec-9595-a226018aa7b2)
+
+
 
 
 
