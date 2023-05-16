@@ -136,6 +136,11 @@ I done sone some test in the test.py file using the terminal to get results usin
     * Results: pass.
 
 
+## Responsiveness
+
+* I am pleased to inform you that the website you are using is fully responsive, ensuring a seamless user experience across all devices. Whether you access the website from a desktop computer, laptop, tablet, or smartphone, its layout, design, and functionality adapt flawlessly to different screen sizes and resolutions. This responsiveness guarantees that you can enjoy the website's features, navigate effortlessly, and interact with its content efficiently, regardless of the device you choose to use. With a commitment to providing an optimal user experience, the website's responsiveness ensures accessibility and convenience for all visitors, enhancing your satisfaction and usability.
+
+Results = pass fully responsive
 
 
 ## Lighthouse Test's
