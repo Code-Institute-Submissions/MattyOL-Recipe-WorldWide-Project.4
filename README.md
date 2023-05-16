@@ -1,5 +1,6 @@
 # Recipe-WorldWide-Project.4
-<img width="1290" alt="Screen Shot 2023-05-06 at 12 13 08" src="https://user-images.githubusercontent.com/111317260/236620760-f9e61e04-9cf7-4203-a732-78b66bc46c63.png">
+<img width="1242" alt="Screen Shot 2023-05-16 at 20 05 37" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/92ad82cd-a6e2-455e-81bd-da7f28c0320b">
+
 
 Recipe WorldWide is a website that functions as a platform for blogging, where users can share their favorite recipes from various parts of the world. The website administrator has the authority to add posts verify likes and comments from users, images, and create content for the blog. Users who are signed up and logged into their accounts can submit their blog posts, edit , delete and the admin is responsible for managing the requests, users can send emails to the site's administrators if they have any questions or ideas. The primary objective of this site is to bring individuals and their unique cooking methods together by providing a space for sharing recipes.
 
