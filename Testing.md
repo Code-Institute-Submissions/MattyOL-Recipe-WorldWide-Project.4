@@ -134,6 +134,9 @@ I done sone some test in the test.py file using the terminal to get results usin
 17. * Test: When a user is not signed in can they view the contact/add recipe form. 
     * Expected: Not to be able to see the contact/add recipe form.
     * Results: pass.
+## linter pylint 
+I used linter pylint to test the python code.
+* No major issues to be found.
 
 
 ## Responsiveness
