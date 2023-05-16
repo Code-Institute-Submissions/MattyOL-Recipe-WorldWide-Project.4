@@ -46,6 +46,20 @@ In order to properly validate my HTML pages with Jinja syntax for authenticated 
 * I have used the recommended CSS Jigsaw Validator to validate my CSS file. 
 * No issues 
 <img width="1335" alt="Screen Shot 2023-05-15 at 18 03 29" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/3778965e-73d3-4dff-ae1c-7eb0d958c4bb">
+## Python 
+I have used the recommended CI Python Linter to validate all of my Python files.
+
+## tests.py 
+I done sone some test in the test.py file using the terminal to get results using the 
+* python3 manage.py test / command 
+* 
+![Screen Shot 2023-05-16 at 14 49 10](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/390dbebd-8b21-4294-9cf0-3e735ac21bc4)
+
+![Screen Shot 2023-05-16 at 14 49 22](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/484f2494-dbfc-454f-90cb-1c86816e66a0)
+
+
+### Results 
+<img width="595" alt="Screen Shot 2023-05-16 at 14 49 56" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/90d5edc6-eb49-4434-b371-0de3b639d8e3">
 
 
 ## Manual Testing 
