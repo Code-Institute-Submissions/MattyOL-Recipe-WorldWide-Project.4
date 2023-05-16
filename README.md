@@ -84,6 +84,11 @@ To have a better plan for developing my website, I utilized Justinmind.com to pr
   * The Search bar feature is there to make searching up a recipe more easy for the user so they can check for a pacific recipe.
 ![Screen Shot 2023-05-16 at 13 52 05](https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/2165c082-9a2b-4b7c-aa8a-2f7ed1ab709b)
 
+* Recipe 
+  * The recipe displayed when the user clicks into the post. 
+  
+<img width="532" alt="Screen Shot 2023-05-16 at 19 58 44" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/f9abe749-a809-4d20-8451-ab91935393e7">
+
 * Likes effect
   * likes on posts left from users are display for the cover of the post and inside the post.
   
