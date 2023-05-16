@@ -164,6 +164,26 @@ This project utilized GitHub Projects as an Agile tool. Although not a dedicated
 
 The tool was used to visualize the development progress of the project by mapping user stories onto a basic Kanban board. It enabled me to identify the work backlog and to move tasks across the board as they were being worked on, tested, and signed off upon completion.
 
+<img width="1428" alt="Screen Shot 2023-05-17 at 00 16 22" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/3371adde-d6c9-4ef5-aa9e-14deb0613bcb">
+
+## GitHub Issues
+
+GitHub Issues served as an another Agile tool. There, I used my own User Story Template to manage user stories and created a Bug tag to track and monitor issues on the site to be worked on.
+
+* [Open issues](https://github.com/MattyOL/Recipe-WorldWide-Project.4/issues?q=is%3Aopen+is%3Aissue)
+
+<img width="1276" alt="Screen Shot 2023-05-17 at 00 17 24" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/59ef1d94-3d6a-42a7-b7a4-5dd938424d8b">
+
+
+* [Closed issues ](https://github.com/MattyOL/Recipe-WorldWide-Project.4/issues?q=is%3Aissue+is%3Aclosed)
+
+<img width="1229" alt="Screen Shot 2023-05-17 at 00 18 06" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/df3f6d4c-6323-4dce-a7b2-f58f0c1ea426">
+
+<img width="1275" alt="Screen Shot 2023-05-17 at 00 18 12" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/b3934c21-7a0e-4262-af4d-0f12b31342bd">
+
+<img width="1335" alt="Screen Shot 2023-05-17 at 00 18 17" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/268005ef-e765-4b10-81f3-de9d6da94a00">
+<img width="1249" alt="Screen Shot 2023-05-17 at 00 18 25" src="https://github.com/MattyOL/Recipe-WorldWide-Project.4/assets/111317260/c64b1b91-d436-4716-a454-ac6b98c99814">
+
 
 ### MoSCoW Prioritization
 Prior to prioritizing and implementing the Epics, I broke them down into smaller stories using a decomposition approach. This method enabled me to apply the MoSCoW prioritization and labels to the individual user stories within the Issues tab
