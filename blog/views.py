@@ -54,17 +54,17 @@ def update_view(request, post_id):
     try:
         post_sel = Post.objects.get(id=post_id)
     except Post.DoesNotExist:
-        return redirect('/')
+        return redirect('home')
     if post_sel.author == request.user:
         post_form = AddForm(request.POST or None, instance=post_sel)
         if post_form.is_valid():
             post_form.save()
-            return redirect('/')
+            return redirect('home')
         context = {}  
         context['form'] = post_form
         return render(request, 'update_view.html', context)
     else:
-        return redirect("/")
+        return redirect('home')
 
 # delete
 

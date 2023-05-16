@@ -31,8 +31,21 @@
                     <!-- Use the | safe filter inside the template tags -->
                     <img class="postimage"  width="100%">
                     <p class="card-text ">
-                        {{ post.recipe | safe }}
-                        {{ post.ingredients | safe }}
+                        <div class="recipecontainer">
+                            <div class="containerone">
+                                <img class="" src="{{ post.content_image.url }}">
+                            </div> 
+                                <div class="ingredientscontainer">
+                                    <h4>Ingredients </h4>
+                                    <p>{{ post.ingredients | safe }}</p>
+                                </div>
+                    </div>
+                        
+                        
+                        
+                        <h3>Method</h3>
+                        <p class="methodp">{{ post.method | safe }}</p>
+                        
                     </p>
                     <div class="row">
 

@@ -17,7 +17,7 @@
                                 <img class="card-img-top"
                                     src="#">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="img">
+                                <img class="card-img-top" src="{{ post.featured_image.url }}" alt="img">
                                 {% endif %}
                             </div>
                             <a href="{% url 'post_detail' post.slug  %}" class="post-link">

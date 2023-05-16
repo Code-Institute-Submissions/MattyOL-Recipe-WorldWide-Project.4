@@ -34,11 +34,12 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     featured_image = CloudinaryField('image', default='placeholder')
-    recipe = models.TextField(blank=True)
+    description = models.TextField(blank=True)
     updated_on = models.DateTimeField(auto_now=True)
     content_image = CloudinaryField('image', default='placeholder')
     category = models.ManyToManyField(Category, verbose_name=u'Categories')
     ingredients = models.TextField()
+    method = models.TextField(blank=True)
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=1)
     likes = models.ManyToManyField(
