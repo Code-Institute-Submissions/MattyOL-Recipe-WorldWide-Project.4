@@ -13,4 +13,4 @@ class AddForm(forms.ModelForm):
 
     class Meta:
         model = Post
-        fields = ('title', 'author', 'featured_image', 'slug', 'description', 'ingredients', 'content_image', 'method', 'category')
+        fields = ('title', 'author', 'featured_image', 'slug', 'dish', 'ingredients', 'content_image', 'method', 'category')
